@@ -1,0 +1,198 @@
+<!--HTML Document-->
+<!--Copyright @2016-->
+<!--Godet and Young Hardware Limited Website version: 1.1.0 -->
+<!--Designed and Built by Peter J. Sousa (Moss)-->
+<!--GY Home Page-->
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Godet &amp; Young Hardware : Tools &amp; Hardware</title>
+	<!--Mobile Layout Small-->
+	<link rel="stylesheet" media=" screen and (min-width: 320px)" href="css/mobileSMIndex.css">
+	<!--Mobile Layout Large/Landscape-->
+	<link rel="stylesheet" media=" screen and (min-width: 480px)" href="css/mobileLRGIndex.css">
+	<!--Tablet Layout Small-->
+	<link rel="stylesheet" media=" screen and (min-width: 600px)" href="css/tabletSMIndex.css">
+	<!--Tablet Layout Medium-->
+	<link rel="stylesheet" media=" screen and (min-width: 801px)" href="css/tabletMEDIndex.css">
+	<!--Tablet Layout Large-->
+	<link rel="stylesheet" media=" screen and (min-width: 1025px)" href="css/tabletLRGIndex.css">
+	<!--Desktop Layout-->
+	<link rel="stylesheet" media=" screen and (min-width: 1280px)" href="css/desktopIndex.css">
+	
+	<script src="javascript/controller.js" type="text/javascript"></script>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="titleBar">
+		<div href="#HOME" class="titleButton">
+			<img src="images/logo_PLACEHOLDER.png" class="logo" onclick="dropDown(1)">
+		</div>
+		<div class="categoryButton" onclick="dropDown(1)">
+			<div class="catStackTop" id="catSymbolTop"></div>
+			<div class="catStackBtm" id="catSymbolMid"></div>
+			<div class="catStackBtm" id="catSymbolBtm"></div>
+		</div>
+		<div class="open-Close">
+			<h2 id="open-close">Welcome</h2>
+		</div>
+		<div class="hours" id="storeHRS">
+			<h2 class="storeHours">MON-SAT | 7:45-5:00</h2>
+		</div>
+	</header>
+
+	<div class="categoryDropDown" id="catdropdown">
+		<div class="dropTopTab">
+			<a href="index.html" class="dropRow" onclick="dropDown(1)">Home</a>
+			<a href="marine.html" class="dropRow" onclick="dropDown(1)">Marine</a>
+			<a href="tools_hardware.html" class="dropRow" onclick="dropDown(1)">Tools &amp; Hardware</a>
+			<a href="electrical.html" class="dropRow" onclick="dropDown(1)">Electrical</a>
+			<a href="plumbing.html" class="dropRow" onclick="dropDown(1)">Plumbing</a>
+			<a href="home_garden.html" class="dropRow" onclick="dropDown(1)">Home &amp; Garden</a>
+			<a href="paint_supply.html" class="dropRow" onclick="dropDown(1)">Paint &amp; Supply</a>
+			<a href="lumber.html" class="dropRow" onclick="dropDown(1)">Lumber</a>
+			<a href="about.html" class="dropRow" onclick="dropDown(1)">About</a>
+			<a href="contact.html" class="dropRow" onclick="dropDown(1)">Contact</a>
+			<a href="#SERVICES" class="dropRow" onclick="dropDown(1)">Services</a>
+			<div class="dropBtmTab" onclick="categoryReset()">
+				<h2 class="closeSymbol" onclick="dropDown(1)">X</h2>
+
+			</div>
+		</div>
+		
+		
+	</div>
+
+	<div class="navDiv">
+	</div>
+
+	<div class="subSection" id="TOP">
+		<h2 class="subTitle">Tools &amp; Hardware</h2>
+		<p class="subDescrpt">Tools &amp; Hardware are our bread and butter. We stock a massive variety of goods. If you don't see something you're looking for theres a good chance we still have it. Give us a call at <strong>(441) 297-1940</strong> for any product inquiries.</p>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/adhesives.jpg">
+		<h1 class="serviceTitle">Adhesives</h1>
+		<p class="serviceDesc">Need something to stick to something else? We have everything you need.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>Duct Tape - Black, Grey, White, &amp; Clear</li>
+				<li>Epoxy, Contact Cement&trade;, &amp; Spray Adhesive</li>
+				<li>Painter's Tape &amp; Masking Tape (various sizes)</li>
+				<li>Putty &amp; Clear/White Silicone or Latex Caulking</li>
+				<li>Super, Krazy, Gorilla&trade;, &amp; Wood Glue</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/automotive.jpg">
+		<h1 class="serviceTitle">Automotive</h1>
+		<p class="serviceDesc">Everything you need to make automotive repair and maintenance easy.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>Auto Hardware: Bolts, Screws, Nuts, etc.</li>
+				<li>Jumper Cables, Belts, AC Refill Canisters, Cleaners, &amp; Waxes</li>
+				<li>Motor Oil, Grease, &amp; Lubricants</li>
+				<li>Spray Paint, Sandpaper, Wet-Dry Paper, Bondo&trade; Filler, etc.</li>
+				<li>Wrenches, Spanners, Sockets, Alan Keys, &amp; Screwdrivers</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/hardware.jpg">
+		<h1 class="serviceTitle">Hardware</h1>
+		<p class="serviceDesc">From metric to standard, from screws to washers; we have all the hardware you could ask for.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>Bolts, Nuts, Washers, Clips, Shackles</li>
+				<li>Hose, Rope, Chain, Twine, SQ. Mesh Wire, Tie Wire, &amp; Much Much More!</li>
+				<li>Screws, Nails, Plugs, Rivets, Braids</li>
+				<li>Threaded Rod, Steel Cable, Locks/Padlocks</li>
+				<li>Zip-ties, Hooks, Eyes, Latches, Hinges</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/lubricants.jpg">
+		<h1 class="serviceTitle">Lubricants</h1>
+		<p class="serviceDesc">Loosen a bolt or stop somthing from squeaking. We have a lubricant for every job.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>3-in-One&trade; Oil</li>
+				<li>Corrosion X&trade; Red/Green</li>
+				<li>Grease Gun, Degreasers, Oil Applicators</li>
+				<li>Heavy Duty / All Purpose Grease</li>
+				<li>WD-40 &amp; Liquid Wrench</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/tools.jpg">
+		<h1 class="serviceTitle">Tools</h1>
+		<p class="serviceDesc">Power tools to hand tools. Regardless of the job we have a tool for it.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>Hammers, Hatchets, Shovels, Screwdrivers, Alan Keys, Spanners</li>
+				<li>Level, Measuring Tapes, Gloves, Buckets, Tarps, Ladders, &amp; a Lot More!</li>
+				<li>Pliers, Snips, Saws, Utility Knives, Scraper Blades</li>
+				<li>Power Tools, Hole Saws, Masonary Blades, Grinding Wheels</li>
+				<li>Taps, Dies, Sockets, Drill Bits, Spade Bits</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="subSection">
+		<h2 class="subTitle">Tools &amp; Hardware</h2>
+		<p class="subDescrpt">We stock a great deal of small miscellaneous items. What you see now is merely a fraction of what we carry. Please visit us at our store location or give us a call at <strong>(441) 297-1940</strong> for any product inquiries.</p>
+	</div>
+
+	<a class="thumbnailHorz" href="about.html">
+		<h2 class="thumbTitle">About Us</h2>
+		<p class="thmbItem">Learn more about Godet &amp; Young and our history</p>
+	</a>
+	<a class="thumbnailHorz" href="contact.html">
+		<h2 class="thumbTitle">Contact Us</h2>
+		<p class="thmbItem">All our contact and address information</p>
+	</a>
+
+	<footer>
+		<div class="foot-top">
+			<a href="#TOP" class="topLink">&larr;Top of Page</a>
+		</div>
+		<div class="footNav">
+			<div class="footColumn">
+				<a href="index.html" class="footRow">Home</a>
+				<a href="marine.html" class="footRow">Marine</a>
+				<a href="tools_hardware.html" class="footRow">Tools &amp; Hardware</a>
+			</div>
+			<div class="footColumn">
+				<a href="electrical.html" class="footRow">Electrical</a>
+				<a href="plumbing.html" class="footRow">Plumbing</a>
+				<a href="home_garden.html" class="footRow">Home &amp; Garden</a>
+			</div>
+			<div class="footColumn">
+				<a href="paint_supply.html" class="footRow">Paint &amp; Supply</a>
+				<a href="lumber.html" class="footRow">Lumber</a>
+				<a href="index.html#SERVICES" class="footRow">Services</a>
+			</div>
+			<div class="footColumn">
+				<a href="about.html" class="footRow">About</a>
+				<a href="contact.html" class="footRow">Contact</a>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<p class="footInfo">&copy; 2016. Godet &amp; Young Hardware Ltd. - Website Designed and Built by Peter Sousa : version 1.1.1</p>
+		</div>
+
+	</footer>
+
+	
+</body>
+</html>
