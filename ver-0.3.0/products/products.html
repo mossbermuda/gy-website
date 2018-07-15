@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- Products -->
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
@@ -11,8 +12,9 @@
     	<link href="../css/mdb.min.css" rel="stylesheet">
 		<!-- My Files -->
 		<link rel="stylesheet" type="text/css" href="../css/myStyles.css">
+		<script type="text/javascript" src="../js/other.js"></script>
 		<link rel="icon" href="../images/gyLogo.png">
-		<title>Products</title>
+		<title>GY - Products</title>
 	</head>
 	<body>
 		<!-- Background Image __ Background Image __ Background Image __ Background Image __ Background Image -->
@@ -28,7 +30,7 @@
 		<div class="container-fluid fixed-top" style="background-color: #212529; z-index: 900;">
 			<div class="row">
 				<div class="d-block w-100">
-					<img src="../images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
+					<img id="storeHR" src="../images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
 				</div>
 				<div class="w-100" style="position:absolute; top:0;">
 					<img src="../images/menu-icon.png" role="button" class="d-inline d-lg-none m-2" data-toggle="modal" data-target="#menuModal" style="height:40px; width:40px; cursor: pointer;">
@@ -144,6 +146,10 @@
 						<p class="text-center">Cleaning</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a id="prdct09" href="products-lighting.html"><img src="../images/electrical.png" class="img-fluid"></a>
+						<p class="text-center">Electrical</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
 						<a id="prdct04" href="products-fishing.html"><img src="../images/fishing.png" class="img-fluid"></a>
 						<p class="text-center">Fishing</p>
 					</div>
@@ -158,10 +164,6 @@
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
 						<a id="prdct07" href="products-home.html"><img src="../images/home.png" class="img-fluid"></a>
 						<p class="text-center">Home</p>
-					</div>
-					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a id="prdct09" href="products-lighting.html"><img src="../images/lighting.png" class="img-fluid"></a>
-						<p class="text-center">Lighting</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
 						<a id="prdct10" href="products-locks.html"><img src="../images/locks.png" class="img-fluid"></a>
@@ -222,7 +224,7 @@
 				<div class="row pb-2">
 					<div class="col-12">
 						<h1 class="display-5 pt-3 text-dark">All Product Types</h1>
-						<article class="text-muted">112 Results</article>
+						<article class="text-muted">116 Results</article>
 					</div>
 				</div>
 			</div>
@@ -846,7 +848,7 @@
 			</a>
 		</div>
 		<!-- Ad Slider Large -->
-		<div id="adSlider" class="carousel slide d-none d-md-block" data-ride="carousel">
+		<div id="adSlider2" class="carousel slide d-none d-md-block" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="../images/ad01a.png" alt="Deliveries">
@@ -860,11 +862,11 @@
 					</a>
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#adSlider" role="button" data-slide="prev">
+			<a class="carousel-control-prev" href="#adSlider2" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
-			<a class="carousel-control-next" href="#adSlider" role="button" data-slide="next">
+			<a class="carousel-control-next" href="#adSlider2" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
@@ -887,7 +889,6 @@
  			</div>
 		</div>
 
-		<script type="text/javascript" src="../js/my.js"></script>
 		<!-- Required Bootstrap JS files -->
 		<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.min.js"></script>

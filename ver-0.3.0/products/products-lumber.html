@@ -12,8 +12,9 @@
     	<link href="../css/mdb.min.css" rel="stylesheet">
 		<!-- My Files -->
 		<link rel="stylesheet" type="text/css" href="../css/myStyles.css">
+		<script type="text/javascript" src="../js/other.js"></script>
 		<link rel="icon" href="../images/gyLogo.png">
-		<title>Lumber</title>
+		<title>GY - Lumber</title>
 	</head>
 	<body>
 		<!-- Background Image __ Background Image __ Background Image __ Background Image __ Background Image -->
@@ -29,7 +30,7 @@
 		<div class="container-fluid fixed-top " style="background-color: #212529;">
 			<div class="row">
 				<div class="d-block w-100">
-					<img src="../images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
+					<img id="storeHR" src="../images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
 				</div>
 				<div class="w-100" style="position:absolute; top:0;">
 					<img src="../images/menu-icon.png" role="button" class="d-inline d-lg-none m-2" data-toggle="modal" data-target="#menuModal" style="height:40px; width:40px; cursor: pointer;">
@@ -212,96 +213,84 @@
 		<br>
 		<br>
 
-		<!-- Product Categories -->
+		<!-- Products MOBILE -->
 		<div class="container-fluid bg-light">
 			<div class="container">
-				<div class="row d-block d-lg-none">
-					<div class="col-12">
-						<h1 class="text-center text-dark pt-3">Products</h1>
-						<article class="pb-4 text-muted text-center">Categories</article>
-					</div>
-				</div>	
-				<div class="row d-none d-lg-block pt-5">
-					<div class="col-6">
-						<h1 class="display-5 text-dark">Products</h1>
-						<article class="pb-3 text-muted">Categories</article>	
-					</div>
-				</div>
 				<div class="row">
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-adhesives.html"><img src="../images/adhesive.png" class="img-fluid"></a>
-						<p class="lead text-center">Adhesive</p>
+						<a id="prdct01" href="products-adhesives.html"><img src="../images/adhesive.png" class="img-fluid"></a>
+						<p class="text-center">Adhesive</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-automotive.html"><img src="../images/automotive.png" class="img-fluid"></a>
-						<p class="lead text-center">Automotive</p>
+						<a id="prdct02" href="products-automotive.html"><img src="../images/automotive.png" class="img-fluid"></a>
+						<p class="text-center">Automotive</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-cleaning.html"><img src="../images/cleaning.png" class="img-fluid"></a>
-						<p class="lead text-center">Cleaning</p>
+						<a id="prdct03" href="products-cleaning.html"><img src="../images/cleaning.png" class="img-fluid"></a>
+						<p class="text-center">Cleaning</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-fishing.html"><img src="../images/fishing.png" class="img-fluid"></a>
-						<p class="lead text-center">Fishing</p>
+						<a id="prdct09" href="products-lighting.html"><img src="../images/electrical.png" class="img-fluid"></a>
+						<p class="text-center">Electrical</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-garden.html"><img src="../images/garden.png" class="img-fluid"></a>
-						<p class="lead text-center">Garden</p>
+						<a id="prdct04" href="products-fishing.html"><img src="../images/fishing.png" class="img-fluid"></a>
+						<p class="text-center">Fishing</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-hardware.html"><img src="../images/hardware.png" class="img-fluid"></a>
-						<p class="lead text-center">Hardware</p>
+						<a id="prdct05" href="products-garden.html"><img src="../images/garden.png" class="img-fluid"></a>
+						<p class="text-center">Garden</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-home.html"><img src="../images/home.png" class="img-fluid"></a>
-						<p class="lead text-center">Home</p>
+						<a id="prdct06" href="products-hardware.html"><img src="../images/hardware.png" class="img-fluid"></a>
+						<p class="text-center">Hardware</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-lighting.html"><img src="../images/lighting.png" class="img-fluid"></a>
-						<p class="lead text-center">Lighting</p>
+						<a id="prdct07" href="products-home.html"><img src="../images/home.png" class="img-fluid"></a>
+						<p class="text-center">Home</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-locks.html"><img src="../images/locks.png" class="img-fluid"></a>
-						<p class="lead text-center">Locks</p>
+						<a id="prdct10" href="products-locks.html"><img src="../images/locks.png" class="img-fluid"></a>
+						<p class="text-center">Locks</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-lubricants.html"><img src="../images/lubricant.png" class="img-fluid"></a>
-						<p class="lead text-center">Lubricants</p>
+						<a id="prdct11" href="products-lubricants.html"><img src="../images/lubricant.png" class="img-fluid"></a>
+						<p class="text-center">Lubricants</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-lumber.html"><img src="../images/lumber.png" class="img-fluid"></a>
-						<p class="lead  text-center">Lumber</p>
+						<a id="prdct12" href="products-lumber.html"><img src="../images/lumber.png" class="img-fluid"></a>
+						<p class="text-center">Lumber</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-marine.html"><img src="../images/marine.png" class="img-fluid"></a>
-						<p class="lead text-center">Marine</p>
+						<a id="prdct13" href="products-marine.html"><img src="../images/marine.png" class="img-fluid"></a>
+						<p class="text-center">Marine</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-masonry.html"><img src="../images/masonry.png" class="img-fluid"></a>
-						<p class="lead text-center">Masonry</p>
+						<a id="prdct14" href="products-masonry.html"><img src="../images/masonry.png" class="img-fluid"></a>
+						<p class="text-center">Masonry</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-paint.html"><img src="../images/paint.png" class="img-fluid"></a>
-						<p class="lead text-center">Paint</p>
+						<a id="prdct15" href="products-paint.html"><img src="../images/paint.png" class="img-fluid"></a>
+						<p class="text-center">Paint</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-plumbing.html"><img src="../images/plumbing.png" class="img-fluid"></a>
-						<p class="lead text-center">Plumbing</p>
+						<a id="prdct16" href="products-plumbing.html"><img src="../images/plumbing.png" class="img-fluid"></a>
+						<p class="text-center">Plumbing</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-rope.html"><img src="../images/rope.png" class="img-fluid"></a>
-						<p class="lead text-center">Rope/Chain</p>
+						<a id="prdct17" href="products-rope.html"><img src="../images/rope.png" class="img-fluid"></a>
+						<p class="text-center">Rope/Chain</p>
 					</div>
-					<div class="col-sm-3 d-none d-sm-block d-lg-none">
+					<div class="col-4 col-sm-3 d-none d-sm-block d-lg-none">
 						
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products-solvent.html"><img src="../images/solvent.png" class="img-fluid"></a>
-						<p class="lead text-center">Solvent</p>
+						<a id="prdct18" href="products-solvent.html"><img src="../images/solvent.png" class="img-fluid"></a>
+						<p class="text-center">Solvent</p>
 					</div>
-					<div class="col-4 col-sm-3 col-lg-2 view zoom  pb-3">
-						<a href="products-tools.html"><img src="../images/tools.png" class="img-fluid"></a>
-						<p class="lead text-center">Tools</p>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom pb-3">
+						<a id="prdct19" href="products-tools.html"><img src="../images/tools.png" class="img-fluid"></a>
+						<p class="text-center">Tools</p>
 					</div>
 				</div>
 			</div>
@@ -332,7 +321,7 @@
 			</a>
 		</div>
 		<!-- Ad Slider Large -->
-		<div id="adSlider" class="carousel slide d-none d-md-block" data-ride="carousel">
+		<div id="adSlider2" class="carousel slide d-none d-md-block" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="../images/ad01a.png" alt="Deliveries">
@@ -346,11 +335,11 @@
 					</a>
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#adSlider" role="button" data-slide="prev">
+			<a class="carousel-control-prev" href="#adSlider2" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
-			<a class="carousel-control-next" href="#adSlider" role="button" data-slide="next">
+			<a class="carousel-control-next" href="#adSlider2" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
