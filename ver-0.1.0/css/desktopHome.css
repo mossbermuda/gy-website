@@ -1,0 +1,954 @@
+@font-face {
+    font-family: "Rajdhani-Bold";
+    src: url(../fonts/Rajdhani-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Rajdhani-Medium";
+    src: url(../fonts/Rajdhani-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Rajdhani-Regular";
+    src: url(../fonts/Rajdhani-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "IMFeDPrm28P";
+    src: url(../fonts/IMFeDPrm28P.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Quintessential-Regular";
+    src: url(../fonts/Quintessential-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Alegreya-Regular";
+    src: url(../fonts/Alegreya-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Alegreya-Bold";
+    src: url(../fonts/Alegreya-Bold.ttf) format("truetype");
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	margin: 0px;
+}
+
+/*	Navigation Bar - START 	- 		-  		-  		-  		- 		-  		- 		- 		-  		- 		- 		- 		Navigation Bar - START	*/
+
+.tabShadow {
+	margin: 0px;
+	position: fixed;
+	height: 6.3vw;
+	width: 100.0vw;
+	z-index: 890;
+	background-color: #000000;
+	opacity: 0.20;
+}
+
+.tabLink {
+	margin: 0px;
+	float: right;
+	height: 6.0vw;
+	width: 9.0vw;
+	margin-top: 0.5vw;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Rajdhani-Bold";
+	font-size: 1.8vw;
+	color: #000000;
+}
+
+.tabLink:hover {
+	color: #8FBC8F;
+	font-size: 1.9vw;
+}
+
+.contactTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 100.0vw;
+	z-index: 900;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.contactTab:hover {
+	background-color: #2E8B57;
+}
+
+.aboutTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 91.0vw;
+	z-index: 910;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.aboutTab:hover {
+	background-color: #2E8B57;
+}
+
+.lumberTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 82.0vw;
+	z-index: 920;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.lumberTab:hover {
+	background-color: #2E8B57;
+}
+
+.paintTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 73.0vw;
+	z-index: 930;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.paintTab:hover {
+	background-color: #2E8B57;
+}
+
+.homeTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 64.0vw;
+	z-index: 940;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.homeTab:hover {
+	background-color: #2E8B57;
+}
+
+.plumbingTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 55.0vw;
+	z-index: 950;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.plumbingTab:hover {
+	background-color: #2E8B57;
+}
+
+.electricTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 46.0vw;
+	z-index: 960;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.electricTab:hover {
+	background-color: #2E8B57;
+}
+
+.toolTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 37.0vw;
+	z-index: 970;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.toolTab:hover {
+	background-color: #2E8B57;
+}
+
+.marineTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 28.0vw;
+	z-index: 980;
+	background-color: #8FBC8F;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.marineTab:hover {
+	background-color: #2E8B57;
+}
+
+.titleTab {
+	margin: 0px;
+	position: fixed;
+	height: 6.0vw;
+	width: 19.0vw;
+	z-index: 990;
+	background-color: #2E8B57;
+	border-style: none solid none none;
+	border-width: thin;
+}
+
+.homeLink {
+	margin: 0px;
+	height: 6.0vw;
+	width: 19.0vw;
+	float: right;
+	position: absolute;
+	text-decoration: none;
+	text-align: center;
+	font-family: "IMFeDPrm28P";
+	font-size: 2.8vw;
+	color: #000000;
+}
+
+.homeLinkSUB {
+	margin: 0px;
+	margin-top: 3.0vw;
+	height: 3.0vw;
+	width: 19.0vw;
+}
+
+.homeLinkSUBA {
+	margin: 0px;
+	text-align: center;
+	font-size: 1.1vw;
+	font-family: "IMFeDPrm28P";
+}
+
+.homeLinkSUBB {
+	margin: 0px;
+	text-align: center;
+	text-decoration: overline;
+	font-size: 1.0vw;
+	font-family: "Quintessential-Regular";
+}
+
+/*	Navigation Bar - END 	- 		-  		-  		-  		- 		-  		- 		- 		-  		- 		- 		- 		Navigation Bar - END*/
+
+/*	Title Card - START 		- 		-  		-  		-  		- 		-  		- 		- 		-  		- 		- 		- 		Title Card - START		*/
+
+.titleCard {
+	margin: 0px;
+	height: 20.0vw;
+	width: 100.0vw;
+	background-color: #FFFFFF;
+	border-style: none none solid none;
+	border-width: thin;
+}
+
+.titleInfo {
+	margin: 0px;
+	position: absolute;
+	height: 13.0vw;
+	width: 20.0vw;
+	padding-top: 7.0vw;
+}
+
+.cptSmokes {
+	margin: 0px;
+	position: absolute;
+	height: 13.0vw;
+	width: 20.0vw;
+	padding-top: 7.0vw;
+	margin-left: 80.0vw;
+}
+
+.captainSmokes {
+	margin: 0px;
+	padding-left: 0.5vw;
+	text-decoration: none;
+	font-size: 1.7vw;
+	font-family: "Alegreya-Bold";
+	color: #00008B;
+	text-align: center;
+}
+
+.captainSmokes:hover {
+	font-size: 1.9vw;
+}
+
+.contactInfo {
+	text-align: center;
+	margin: 0px;
+	font-size: 1.1vw;
+	color: #000000;
+	font-family: "Alegreya-Regular";
+}
+
+.logo {
+	margin: 0px;
+	padding-top: 5.0vw;
+	text-align: center;
+	font-family: "Quintessential-Regular";
+	font-size: 7.5vw;
+}
+
+.logoSUB {
+	margin: 0px;
+	position: absolute;
+	height: 5.0vw;
+	width: 60.0vw;
+	margin-top: 14.0vw;
+	margin-left: 20.0vw;
+	margin-right: 20.0vw;
+}
+
+.logoSUBtop {
+	margin: 0px;
+	text-align: center;
+	font-size: 2.3vw;
+	font-family: "IMFeDPrm28P";
+}
+
+.logoSUBbtm {
+	margin: 0px;
+	text-align: center;
+	font-size: 2.3vw;
+	text-decoration: overline;
+	font-family: "Quintessential-Regular";
+}
+
+.logoEST {
+	margin: 0px;
+	position: absolute;
+	padding-left: 40.0vw;
+	padding-top: 4.0vw;
+	font-family: "Quintessential-Regular";
+	font-size: 1.5vw;
+}
+
+/*	Title Card - END 	- 		-  		-  		-  		- 		-  		- 		- 		-  		- 		- 		- 		Title Card - END*/
+
+/*	Category Summaries - START 	- 		-  		-  		-  		- 		-  		- 		- 		-  		- 		Category Summaries - START		*/
+.sliderTwoControl {
+	margin: 0px;
+	height: 5.0vw;
+	width: 70.0vw;
+	background-color: #FFFFFF;
+}
+
+.sliderTwoPrev {
+	margin: 0px;
+	float: left;
+	font-size: 1.5vw;
+	height: 5.0vw;
+	width: 10.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderTwoPrev:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderTwoSelect {
+	margin: 0px;
+	float: left;
+	font-size: 2.0vw;
+	height: 5.0vw;
+	width: 20.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderTwoSelect:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderTwoNext {
+	margin: 0px;
+	font-size: 2.0vw;
+	height: 5.0vw;
+	width: 10.0vw;
+	float: left;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderTwoNext:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderTwoBox {
+	margin: 0px;
+	position: absolute;
+	height: 35.0vw;
+	width: 70.0vw;
+}
+
+.sliderTwoTitle {
+	margin: 0px;
+	text-align: center;
+	font-size: 4.0vw;
+	font-family: "Rajdhani-Bold";
+}
+
+.sliderTwoItem {
+	margin: 0px;
+	text-align: center;
+	font-size: 2.0vw;
+	padding-top: 1.0vw;
+	font-family: "Alegreya-Regular";
+}
+
+
+.sliderThreeControl {
+	margin: 0px;
+	height: 5.0vw;
+	width: 70.0vw;
+	background-color: #FFFFFF;
+}
+
+.sliderThreePrev {
+	margin: 0px;
+	float: left;
+	font-size: 1.7vw;
+	height: 5.0vw;
+	width: 10.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderThreePrev:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderThreeSelect {
+	margin: 0px;
+	float: left;
+	font-size: 2.0vw;
+	height: 5.0vw;
+	width: 15.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderThreeSelect:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderThreeNext {
+	margin: 0px;
+	font-size: 1.7vw;
+	height: 5.0vw;
+	width: 10.0vw;
+	float: left;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderThreeNext:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderThreeBox {
+	margin: 0px;
+	position: absolute;
+	height: 35.0vw;
+	width: 70.0vw;
+}
+
+.sliderThreeTitle {
+	margin: 0px;
+	text-align: center;
+	font-size: 4.0vw;
+	font-family: "Rajdhani-Bold";
+}
+
+.sliderThreeItem {
+	margin: 0px;
+	text-align: center;
+	font-size: 2.4vw;
+	font-family: "Alegreya-Regular";
+	padding-top: 1.0vw;
+}
+.sliderAboutItem {
+	margin: 0px;
+	text-align: center;
+	font-size: 1.4vw;
+	font-family: "Alegreya-Regular";
+	padding-left: 1.0vw;
+	padding-right: 1.0vw;
+	text-decoration: none;
+}
+
+
+.sliderThreeAltControl {
+	margin: 0px;
+	height: 5.0vw;
+	width: 46.667vw;
+	background-color: #FFFFFF;
+}
+
+.sliderThreeAltPrev {
+	margin: 0px;
+	float: left;
+	font-size: 1.1vw;
+	height: 5.0vw;
+	width: 7.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderThreeAltPrev:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderThreeAltSelect {
+	margin: 0px;
+	float: left;
+	font-size: 1.5vw;
+	height: 5.0vw;
+	width: 10.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderThreeAltSelect:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderThreeAltNext {
+	margin: 0px;
+	font-size: 1.1vw;
+	height: 5.0vw;
+	width: 7.0vw;
+	float: left;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderThreeAltNext:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderThreeAltBox {
+	margin: 0px;
+	position: absolute;
+	height: 35.0vw;
+	width: 46.667vw;
+}
+
+.sliderThreeAltTitle {
+	margin: 0px;
+	text-align: center;
+	font-size: 4.0vw;
+	font-family: "Rajdhani-Bold";
+}
+
+.sliderThreeAltItem {
+	margin: 0px;
+	text-align: center;
+	font-size: 2.0vw;
+	font-family: "Alegreya-Regular";
+	padding-top: 1.6vw;
+}
+
+
+.sliderFourControl {
+	margin: 0px;
+	height: 5.0vw;
+	width: 46.667vw;
+	background-color: #FFFFFF;
+}
+
+.sliderFourPrev {
+	margin: 0px;
+	float: left;
+	font-size: 1.1vw;
+	height: 5.0vw;
+	width: 6.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderFourPrev:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderFourSelect {
+	margin: 0px;
+	float: left;
+	font-size: 1.5vw;
+	height: 5.0vw;
+	width: 8.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderFourSelect:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderFourNext {
+	margin: 0px;
+	font-size: 1.1vw;
+	height: 5.0vw;
+	width: 6.0vw;
+	float: left;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderFourNext:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderFourBox {
+	margin: 0px;
+	position: absolute;
+	height: 35.0vw;
+	width: 46.667vw;
+}
+
+.sliderFourTitle {
+	margin: 0px;
+	text-align: center;
+	font-size: 4.0vw;
+	font-family: "Rajdhani-Bold";
+}
+
+.sliderFourItem {
+	margin: 0px;
+	text-align: center;
+	font-size: 2.0vw;
+	font-family: "Alegreya-Regular";
+	padding-top: 1.0vw;
+}
+
+
+.sliderFiveControl {
+	margin: 0px;
+	height: 5.0vw;
+	width: 70.0vw;
+	background-color: #FFFFFF;
+}
+
+.sliderFivePrev {
+	margin: 0px;
+	float: left;
+	font-size: 1.5vw;
+	height: 5.0vw;
+	width: 7.5vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderFivePrev:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderFiveSelect {
+	margin: 0px;
+	float: left;
+	font-size: 1.7vw;
+	height: 5.0vw;
+	width: 10.0vw;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderFiveSelect:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderFiveNext {
+	margin: 0px;
+	font-size: 1.5vw;
+	height: 5.0vw;
+	width: 7.5vw;
+	float: left;
+	text-align: center;
+	font-family: "Rajdhani-Bold";
+	text-decoration: none;
+	border: none;
+	color: #808080;
+	background-color: transparent;
+}
+
+.sliderFiveNext:hover {
+	background-color: #F5F5F5;
+}
+
+.sliderFiveBox {
+	margin: 0px;
+	height: 35.0vw;
+	width: 70.0vw;
+}
+
+.sliderFiveTitle {
+	margin: 0px;
+	text-align: center;
+	font-size: 4.0vw;
+	font-family: "Rajdhani-Bold";
+}
+
+.sliderFiveItem {
+	margin: 0px;
+	text-align: center;
+	font-size: 2.4vw;
+	font-family: "Alegreya-Regular";
+	padding-top: 1.0vw;
+}
+
+.category {
+	margin: 0px;
+	height: 54.0vw;
+	width: 100.0vw;
+	background-color: #FFFFFF;
+}
+
+.categoryLabel {
+	margin: 0px;
+	height: 14.0vw;
+	width: 100.0vw;
+	background-color: #000000;
+}
+
+.labelTitle {
+	margin: 0px;
+	position: absolute;
+	margin-top: 4.0vw;	
+	font-family: "Rajdhani-Bold";
+	color: #FFFFFF;
+	font-size: 8.0vw;
+	float: left;
+}
+
+.horizontalIMGBOX {
+	margin: 0px;
+	float: right;
+	height: 40.0vw;
+	width: 53.333vw;
+}
+
+.contentBoxA {
+	margin: 0px;
+	float: left;
+	height: 40.0vw;
+	width: 46.667vw;
+}
+
+.contactReminder {
+	margin: 0px;
+	font-size: 1.0vw;
+	padding-top: 12.0vw;
+	padding-right: 1.0vw;
+	font-family: "Rajdhani-Regular";
+	color: #FFFFFF;
+	float: right;
+}
+
+.contactHeader {
+	margin: 0px;
+	font-family: "Rajdhani-Bold";
+	font-size: 3.0vw;
+	padding-left: 1.0vw;
+	padding-top: 3.0vw;
+}
+
+.contactItem {
+	margin: 0px;
+	font-family: "Alegreya-Regular";
+	font-size: 1.0vw;
+	padding-left: 3.0vw;
+}
+
+.horizontalIMGBOX_alt {
+	margin: 0px;
+	float: left;
+	height: 40.0vw;
+	width: 53.333vw;
+}
+
+.contentBoxD {
+	margin: 0px;
+	float: right;
+	height: 40.0vw;
+	width: 46.667vw;
+}
+
+.verticalIMGBOX {
+	margin: 0px;
+	height: 40.0vw;
+	width: 30.0vw;
+	float: left;
+}
+
+.contentBoxB {
+	margin: 0px;
+	float: right;
+	height: 40.0vw;
+	width: 70.0vw;
+}
+
+.verticalIMGBOX_alt {
+	margin: 0px;
+	float: right;
+	height: 40.0vw;
+	width: 30.0vw;
+}
+
+.contentBoxC {
+	margin: 0px;
+	float: left;
+	height: 40.0vw;
+	width: 70.0vw;
+}
+
+/*	Category Summaries - END 	- 		-  		-  		-  		- 		-  		- 		- 		-  		- 		Category Summaries - END*/	
+
+footer {
+	margin: 0px;
+	height: 20.0vw;
+	width: 100.0vw;
+	background-color: #696969;
+}
+
+.footMsgWindow {
+	margin: 0px;
+	height: 5.0vw;
+	width: 100.0vw;
+}
+
+.footMsg {
+	margin: 0px;
+	font-size: 1.0vw;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-family: "Rajdhani-Regular";
+	color: #FFFFFF;
+}
+
+.footNav {
+	margin: 0px;
+	height: 12.0vw;
+	width: 100.0vw;
+}
+
+.footNavCube {
+	margin: 0px;
+	height: 12.0vw;
+	width: 14.0vw;
+	float: left;
+}
+
+.NavCubeTitle {
+	margin: 0px;
+	font-size: 1.5vw;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-family: "Rajdhani-Medium";
+	color: #FFFFFF;
+}
+
+.NavCubeTitle:hover {
+	color: #2F4F4F;
+}
+
+.NavCubeSub {
+	margin: 0px;
+	font-size: 1.2vw;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-family: "Rajdhani-Medium";
+	color: #FFFFFF;
+}
+
+.NavCubeSub:hover {
+	color: #2F4F4F;
+}
+
+.footNote {
+	margin: 0px;
+	height: 3.0vw;
+	width: 100.0vw;
+}

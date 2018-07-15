@@ -1,0 +1,264 @@
+<!--HTML Document-->
+<!--Copyright @2016-->
+<!--Godet and Young Hardware Limited Website version: 1.1.0 -->
+<!--Designed and Built by Peter J. Sousa (Moss)-->
+<!--GY Home Page-->
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Godet &amp; Young Hardware : Home</title>
+	<!--Mobile Layout Small-->
+	<link rel="stylesheet" media=" screen and (min-width: 320px)" href="css/mobileSMIndex.css">
+	<!--Mobile Layout Large/Landscape-->
+	<link rel="stylesheet" media=" screen and (min-width: 480px)" href="css/mobileLRGIndex.css">
+	<!--Tablet Layout Small-->
+	<link rel="stylesheet" media=" screen and (min-width: 600px)" href="css/tabletSMIndex.css">
+	<!--Tablet Layout Medium-->
+	<link rel="stylesheet" media=" screen and (min-width: 801px)" href="css/tabletMEDIndex.css">
+	<!--Tablet Layout Large-->
+	<link rel="stylesheet" media=" screen and (min-width: 1025px)" href="css/tabletLRGIndex.css">
+	<!--Desktop Layout-->
+	<link rel="stylesheet" media=" screen and (min-width: 1280px)" href="css/desktopIndex.css">
+	
+	<script src="javascript/controller.js" type="text/javascript"></script>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<header class="titleBar">
+		<div href="#HOME" class="titleButton">
+			<img src="images/logo_PLACEHOLDER.png" class="logo" onclick="dropDown(1)">
+		</div>
+		<div class="categoryButton" onclick="dropDown(1)">
+			<div class="catStackTop" id="catSymbolTop"></div>
+			<div class="catStackBtm" id="catSymbolMid"></div>
+			<div class="catStackBtm" id="catSymbolBtm"></div>
+		</div>
+		<div class="open-Close">
+			<h2 id="open-close">Welcome</h2>
+		</div>
+		<div class="hours" id="storeHRS">
+			<h2 class="storeHours">MON-SAT | 7:45-5:00</h2>
+		</div>
+	</header>
+
+	<div class="categoryDropDown" id="catdropdown">
+		<div class="dropTopTab">
+			<a href="index.html" class="dropRow" onclick="dropDown(1)">Home</a>
+			<a href="marine.html" class="dropRow" onclick="dropDown(1)">Marine</a>
+			<a href="tools_hardware.html" class="dropRow" onclick="dropDown(1)">Tools &amp; Hardware</a>
+			<a href="electrical.html" class="dropRow" onclick="dropDown(1)">Electrical</a>
+			<a href="plumbing.html" class="dropRow" onclick="dropDown(1)">Plumbing</a>
+			<a href="home_garden.html" class="dropRow" onclick="dropDown(1)">Home &amp; Garden</a>
+			<a href="paint_supply.html" class="dropRow" onclick="dropDown(1)">Paint &amp; Supply</a>
+			<a href="lumber.html" class="dropRow" onclick="dropDown(1)">Lumber</a>
+			<a href="about.html" class="dropRow" onclick="dropDown(1)">About</a>
+			<a href="contact.html" class="dropRow" onclick="dropDown(1)">Contact</a>
+			<a href="#SERVICES" class="dropRow" onclick="dropDown(1)">Services</a>
+			<div class="dropBtmTab" onclick="categoryReset()">
+				<h2 class="closeSymbol" onclick="dropDown(1)">X</h2>
+
+			</div>
+		</div>
+		
+		
+	</div>
+
+	<div class="navDiv">
+	</div>
+
+	<div class="wrap" id="top-page">
+		<input class="sliderButton" id="slide-1-trigger" type="radio" name="slides" checked>
+		<section class="slide slide-one">
+			<h1 class="slTitle">Store Hours</h1>
+		</section>
+
+		<input class="sliderButton" id="slide-2-trigger" type="radio" name="slides">
+		<section class="slide slide-two">
+			<h1 class="slTitle">We Deliver</h1>
+		</section>
+
+		<input class="sliderButton" id="slide-3-trigger" type="radio" name="slides">
+		<section class="slide slide-three">
+			<h1 class="slTitle">Cement, Pro-Seal, Mortar Mix, Lime, etc.</h1>
+		</section>
+
+		<input class="sliderButton" id="slide-4-trigger" type="radio" name="slides">
+		<section class="slide slide-four">
+			<h1 class="slTitle">Glass Cutting</h1>
+		</section>
+
+		<input class="sliderButton" id="slide-5-trigger" type="radio" name="slides">
+		<section class="slide slide-five">
+			<h1 class="slTitle">We Cut Keys</h1>
+		</section>
+
+		<input class="sliderButton" id="slide-6-trigger" type="radio" name="slides">
+		<section class="slide slide-six">
+			<h1 class="slTitle">Lumber</h1>
+		</section>
+		<div class="slNav">
+			<label for="slide-1-trigger" id="radio0" onclick="slideFeedback(0)">Welcome</label>
+			<label for="slide-2-trigger" id="radio1" onclick="slideFeedback(1)">Deliveries</label>
+			<label for="slide-3-trigger" id="radio2" onclick="slideFeedback(2)">Masonary</label>
+			<label for="slide-4-trigger" id="radio3" onclick="slideFeedback(3)">Glass Cutting</label>
+			<label for="slide-5-trigger" id="radio4" onclick="slideFeedback(4)">Key Cutting</label>
+			<label for="slide-6-trigger" id="radio5" onclick="slideFeedback(5)">Lumber</label>
+		</div>
+	</div>
+
+	<div class="subSection">
+		<h2 class="subTitle">Our Products</h2>
+		<p class="subDescrpt">Have a big or small project? We have everything you need to get it done. Our store stocks a wide variety of products ranging from paint to electric wiring. Have questions regarding specific products? Give us a call at <strong>(441) 297-1940</strong> .</p>
+	</div>
+
+	<a class="thumbnail" href="marine.html">
+		<h2 class="thumbTitle">Marine</h2>
+		<p class="thmbItem">Fishing</p>
+		<p class="thmbItem">Hardware</p>
+		<p class="thmbItem">Paint</p>
+	</a>
+	<a class="thumbnail" href="tools_hardware.html">
+		<h2 class="thumbTitle">Tools &amp; Hardware</h2>
+		<p class="thmbItem">Adhesives</p>
+		<p class="thmbItem">Automotive</p>
+		<p class="thmbItem">Hardware</p>
+		<p class="thmbItem">Lubricants</p>
+		<p class="thmbItem">Tools</p>
+	</a>
+	<a class="thumbnail" href="electrical.html">
+		<h2 class="thumbTitle">Electrical</h2>
+		<p class="thmbItem">Lighting</p>
+		<p class="thmbItem">Miscellaneous</p>
+		<p class="thmbItem">Wall Fixtures</p>
+		<p class="thmbItem">Wiring</p>
+	</a>
+	<a class="thumbnail" href="plumbing.html">
+		<h2 class="thumbTitle">Plumbing</h2>
+		<p class="thmbItem">Brass</p>
+		<p class="thmbItem">Galvanized Pipe</p>
+		<p class="thmbItem">Kitchen &amp; Bath</p>
+		<p class="thmbItem">PVC &amp; CPVC Pipe</p>
+		<p class="thmbItem">Supplies</p>
+	</a>
+	<a class="thumbnail" href="home_garden.html">
+		<h2 class="thumbTitle">Home &amp; Garden</h2>
+		<p class="thmbItem">Cleaning</p>
+		<p class="thmbItem">Garden</p>
+		<p class="thmbItem">Kitchen</p>
+		<p class="thmbItem">Locks</p>
+		<p class="thmbItem">Miscellaneous</p>
+	</a>
+	<a class="thumbnail" href="paint_supply.html">
+		<h2 class="thumbTitle">Paint &amp; Supply</h2>
+		<p class="thmbItem">Brushes</p>
+		<p class="thmbItem">Masonary</p>
+		<p class="thmbItem">Paint</p>
+		<p class="thmbItem">Solvent</p>
+		<p class="thmbItem">Varnish</p>
+		<p class="thmbItem">Miscellaneous</p>
+	</a>
+	<a class="thumbnail" href="lumber.html">
+		<h2 class="thumbTitle">Lumber</h2>
+		<p class="thmbItem">Carpentry</p>
+		<p class="thmbItem">Wood</p>
+	</a>
+	<a class="thumbnail" href="#SERVICES">
+		<h2 class="thumbTitle">Services</h2>
+		<p class="thmbItem">Carpet Cleaner</p>
+		<p class="thmbItem">Deliveries</p>
+		<p class="thmbItem">Glass Cutting</p>
+		<p class="thmbItem">Hardware Advice</p>
+		<p class="thmbItem">Key Cutting</p>
+		<p class="thmbItem">Lumber</p>
+	</a>
+
+	<div class="subSection">
+		<h2 class="subTitle">Invaluable Experience</h2>
+		<p class="subDescrpt">With years of experience our knowledgable and helpful staff can help find everything you need to get the job done right.</p>
+	</div>
+
+	<div class="service" id="SERVICES">
+		<img class="serviceIMG" src="images/gySquare2.jpg">
+		<h1 class="serviceTitle">CARPET CLEANER</h1>
+		<p class="serviceDesc">A machine can be reserved any day of the week.</p>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/gySquare4.jpg">
+		<h1 class="serviceTitle">DELIVERIES</h1>
+		<p class="serviceDesc">Want an order delivered? We can do that.</p>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/gySquare1.jpg">
+		<h1 class="serviceTitle">GLASS CUTTING</h1>
+		<p class="serviceDesc">We cut single and double thick pane glass. Need plexiglass? We've got you covered.</p>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/advice.jpg">
+		<h1 class="serviceTitle">HARDWARE ADVICE</h1>
+		<p class="serviceDesc">Have an upcoming job or unexpected problem? Not sure what you need or how to do it? Our staff can help you find everything you need for any job. </p>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/keys.jpg">
+		<h1 class="serviceTitle">KEY CUTTING</h1>
+		<p class="serviceDesc">Door locks, padlocks, deadbolts, etc. If you need a key cut we've got you covered.</p>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/wood.jpg">
+		<h1 class="serviceTitle">LUMBER</h1>
+		<p class="serviceDesc">2 types of lumber: pitch pine and spruce. Plywood, 2x4, 2x6, 2x12, 1x2</p>
+	</div>
+
+	<div class="subSection">
+		<h2 class="subTitle">East End Hardware</h2>
+		<p class="subDescrpt">If you're on the east end of the island and in need of hardware look no further. Save time and visit us at Godet and Young. Located at <strong>27 Wellington Street, St. Georges</strong></p>
+	</div>
+
+	<a class="thumbnailHorz" href="about.html">
+		<h2 class="thumbTitle">About Us</h2>
+		<p class="thmbItem">Learn more about Godet &amp; Young and our history</p>
+	</a>
+	<a class="thumbnailHorz" href="contact.html">
+		<h2 class="thumbTitle">Contact Us</h2>
+		<p class="thmbItem">All our contact and address information</p>
+	</a>
+
+	<footer>
+		<div class="foot-top">
+			<a href="#top-page" class="topLink">&larr;Top of Page</a>
+		</div>
+		<div class="footNav">
+			<div class="footColumn">
+				<a href="index.html" class="footRow">Home</a>
+				<a href="marine.html" class="footRow">Marine</a>
+				<a href="tools_hardware.html" class="footRow">Tools &amp; Hardware</a>
+			</div>
+			<div class="footColumn">
+				<a href="electrical.html" class="footRow">Electrical</a>
+				<a href="plumbing.html" class="footRow">Plumbing</a>
+				<a href="home_garden.html" class="footRow">Home &amp; Garden</a>
+			</div>
+			<div class="footColumn">
+				<a href="paint_supply.html" class="footRow">Paint &amp; Supply</a>
+				<a href="lumber.html" class="footRow">Lumber</a>
+				<a href="index.html#SERVICES" class="footRow">Services</a>
+			</div>
+			<div class="footColumn">
+				<a href="about.html" class="footRow">About</a>
+				<a href="contact.html" class="footRow">Contact</a>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<p class="footInfo">&copy; 2016. Godet &amp; Young Hardware Ltd. - Website Designed and Built by Peter Sousa : version 1.1.1</p>
+		</div>
+
+	</footer>
+</body>
+</html>

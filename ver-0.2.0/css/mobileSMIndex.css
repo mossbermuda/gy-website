@@ -1,0 +1,551 @@
+/*
+CSS Stylesheet
+Copyright @2016																
+Godet and Young Hardware Limited Website version: 1.1.0
+Designed and Built by Peter J. Sousa (Moss)
+Home: MOBILE-Small Css Style
+mobileSMIndex.css
+*/
+@font-face {
+    font-family: "Rajdhani-Regular";
+    src: url(../fonts/Rajdhani-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Rajdhani-Bold";
+    src: url(../fonts/Rajdhani-Bold.ttf) format("truetype");
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #D3D3D3;
+}
+
+.navDiv {
+	margin: 0;
+	height: 15.0vw;
+	width: 100%;
+	background: transparent;
+}
+
+.wrap {
+	height: 56.25vw;
+	width: 100.0vw;
+	background: #120103;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.slNav {
+	margin: 0;
+	height: 7.5vw;
+	width: 96.0;
+	background: transparent;
+	margin-top: 43.0vw;
+	margin-left: 2.0vw;
+	position: absolute;
+	z-index: 800;
+}
+
+.slTitle {
+	margin: 0; 
+	margin-top: 3.0vw;
+	position: absolute;
+	font-size: 4.0vw;
+	font-family: "Rajdhani-Bold";
+}
+
+label {
+	background: #3E474F;
+	margin: 0;
+	padding: 0;
+	font-size: 2.2vw;
+	text-align: center;
+	height: 7.5vw;
+	width: 16.0vw;
+	float: left;
+	font-family: "Rajdhani-Regular";
+	border-radius: 5px;
+
+}
+
+.navAlign {
+	margin-left: 2.0vw;
+}
+
+.slNav label {
+	margin: 0;
+	color: #788188;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.slNav label:hover {
+	background: #2E353B;
+}
+
+
+.slNav label:active {
+	background: #000000;
+	color: #fff;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	z-index: 10;
+	padding: 8em 1em 0;
+	background-color: #123103;
+	background-size: contain;
+	transition: left 0s .75s;
+}
+
+.slide-one { background-image: url(../images/gyTitle1.png); }
+
+.slide-two { background-image: url(../images/gyTitle2.png); }
+
+.slide-three { background-image: url(../images/gyTitle3.png); }
+
+.slide-four { background-image: url(../images/home4.png); }
+
+.slide-five { background-image: url(../images/home5.png); }
+
+.slide-six { background-image: url(../images/home6.png); }
+
+[id^="slide"]:checked + .slide {
+	left: 0;
+	z-index: 100;
+	transition: left .55s ease-out;
+}
+
+.slide .slTitle {
+	opacity: 0;
+	transform:	translateY(100%);
+	transition: transform .5s .5s, opacity 5s;
+}
+
+[id^="slide"]:checked + .slide .slTitle {
+	opacity: 1;
+	transform: translateY(0);
+	transition: all .8s .8s;
+}
+
+
+.open-Close {
+	margin:	0;
+	height: 15.0vw;
+	width: 30.0vw;
+	float: right;
+	background: transparent;
+	border-style: none none none solid;
+	border-width: thin;
+	border-color: #A9A9A9;
+}
+
+#open-close {
+	margin: 0;
+	margin-top: 4.0vw;
+	font-size: 5.0vw;
+	font-family: "Rajdhani-Bold";
+	text-align: center;
+	color: #A9A9A9;
+}
+
+.hours {
+	margin:	0;
+	margin-top: 5.0vw;
+	margin-right: 1.0vw;
+	height: 5.0vw;
+	width: 30.0vw;
+	float: right;
+	background: none;
+}
+
+.storeHours {
+	margin: 0;
+	height: 5.0vw;
+	width: 30.0vw;
+	float: left;
+	font-size: 3.5vw;
+	font-family: "Rajdhani-Regular";
+	text-align: center;
+	color: #A9A9A9;
+}
+
+
+.titleBar {
+	margin: 0;
+	height: 15.0vw;
+	width: 100.0vw;
+	position: fixed;
+	z-index: 900;
+	border:	none;
+	background-color: #fff;
+	box-shadow: 0 0.1em 1.0em #111;
+}
+
+.titleButton {
+	margin: 0;
+	height: 15.0vw;
+	width: 15.0vw;
+	background-color: #000000;
+	text-decoration: none;
+	display: block;
+	color: #000000;
+	cursor: pointer;
+	float: left;
+}
+
+.titleButton:hover {
+	color: #FFFFFF;
+}
+
+.logo {
+	margin: 0;
+	height: 15.0vw;
+	width: 15.0vw;
+	background-color: #fff;
+}
+
+.logo:hover {
+	background-color: #D8D8D8;
+
+}
+
+/*		CATEGORY MENU BUTTON 		*/
+
+.catStackTop {
+	margin: 0;
+	margin-left: 25%;
+	margin-top: 25%;
+	height: 10%;
+	width: 50%;
+	background-color: #A9A9A9;
+}
+
+.categoryButton {
+	margin: 0;
+	margin-top: 0;
+	height: 15.0vw;
+	width: 15.0vw;
+	background-color: #fff;
+	font-family: "Rajdhani-Regular";
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	float: left;
+}
+
+.categoryButton:hover {
+	background-color: #D8D8D8;
+}
+
+.catStackBtm {
+	margin: 0;
+	margin-left: 25%;
+	margin-top: 10%;
+	height: 10%;
+	width: 50%;
+	background-color: #A9A9A9;
+}
+
+/*		DROP DOWN MENU 					*/
+
+.categoryDropDown {
+	margin: 0;
+	margin-top: 15.0vw;
+	width: 100.0vw;
+	height: 100.0vw;
+	background: transparent; 
+	z-index: 890;
+	display: none;
+	position: fixed;
+	box-shadow: 0 2.0em 15.0em #111;
+}
+
+.dropTopTab {
+	margin: 0;
+	padding: 0;
+	width: 100.0vw;
+	height: 88.0vw;
+	background: #B0C4DE;
+}
+
+.dropBtmTab {
+	margin: 0;
+	padding: 0;
+	width: 100.0vw;
+	height: 12.0vw;
+	background: #A9A9A9;
+	float: left;
+	cursor: pointer;
+}
+
+.dropBtmTab:hover {
+	background: #BC8F8F;
+}
+
+.closeSymbol {
+	margin: 0;
+	padding: 0;
+	height: 8.0vw;
+	width: 8.0vw;
+	margin-top: 0.0vw;
+	margin-left: 92.0vw;
+	position: absolute;
+	color: #B0C4DE;
+	font-family: "Rajdhani-Bold";
+	font-size: 9.0vw;
+}
+
+.dropRow {
+	margin: 0;
+	padding-top: 2.0vw;
+	height: 6.0vw;
+	width: 85.0vw;
+	padding-left: 15.0vw;
+	background-color: #B0C4DE;
+	font-size: 3.5vw;
+	font-family: "Rajdhani-Bold";
+	color: #000;
+	display: block;
+	text-decoration: none;
+	border-style: none none solid none;
+	border-color: #BC8F8F;
+	border-width: thin;
+	
+}
+
+.dropRow:hover {
+	background-color: #A9A9A9;
+	font-size: 1.3;
+	color: #fff;
+	font-family: "Rajdhani-Bold";
+	opacity: 1.0;
+}
+
+/*		DROP DOWN MENU - end			*/
+
+.slider .slide .slItem {
+	margin: 0;
+	width: 100.0vw;
+	height: 56.25vw;
+}
+
+.slBox .slItem {
+	margin: 0;
+	width: 100.0vw;
+	height: 56.25vw;
+}
+
+.subSection {
+	margin: 0;
+	margin-top: 6.0vw;
+	margin-bottom: 4.0vw;
+	float: left;
+	width: 100.0vw;
+	height: 25.0vw;
+	background-color: #FFFFFF;
+	box-shadow: 0 0.1em 1.0em #696969;
+}
+
+.subTitle {
+	margin: 0;
+	margin-left: 2.5vw;
+	font-size: 5.5vw;
+	font-family: "Rajdhani-Bold";
+}
+
+.subDescrpt {
+	margin: 0;
+	margin-left: 2.5vw;
+	font-size: 2.5vw;
+	font-family: "Rajdhani-Regular";
+}
+
+.thumbnail {
+	margin: 0;
+	margin-top: 2.0vw;
+	margin-left: 1.0vw;
+	width: 48.5vw;
+	height: 32.0vw;
+	float: left;
+	background-color: #2E8B57;
+	border: none;
+	border-radius: 3%;
+	cursor: pointer;
+	box-shadow: 0 0.1em 1.0em #696969;
+	display: block;
+	text-decoration: none;
+}
+
+.thumbnail:hover {
+	background-color: #696969;
+}
+
+.thumbTitle {
+	margin: 0;
+	margin-top: 2.0vw;
+	font-size: 5.0vw;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Rajdhani-Bold";
+}
+
+.thmbItem {
+	margin: 0;
+	font-size: 2.4vw;
+	text-align: center;
+	color: #000000;
+	font-family: "Rajdhani-Regular";
+}
+
+.thumbnailHorz {
+	margin: 0;
+	margin-top: 2.0vw;
+	margin-left: 5.0vw;
+	margin-bottom: 6.0vw;
+	width: 90.0vw;
+	height: 25.0vw;
+	background-color: #2E8B57;
+	border: none;
+	border-radius: 3%;
+	cursor: pointer;
+	box-shadow: 0 0.1em 1.0em #696969;
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+
+.thumbnailHorz:hover {
+	background-color: #696969;
+}
+
+#radio0 {
+	background-color: #2E353B;
+}
+
+.service {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-top: 4.0vw;
+	margin-left: 2.0vw;
+	background-color: #fff;
+	width: 96.0vw;
+	height: 140.0vw;
+	border-radius: 1px;
+	box-shadow: 0 0.1em 1.0em #696969;
+
+}
+
+.serviceIMG {
+	margin: 0px;
+	padding: 0px;
+	height: 96.0vw;
+	width: 96.0vw;
+	background-color: #292929;
+}
+
+.serviceTitle {
+	margin: 0;
+	padding: 0;
+	margin-top: 1.0vw;
+	margin-left: 2.5vw;
+	font-size: 10.0vw;
+	font-family: "Rajdhani-Bold";
+	color: #4682B4;
+
+}
+
+.serviceDesc {
+	margin: 0;
+	padding: 0;
+	margin-left: 2.5vw;
+	font-size: 4.0vw;
+	font-family: "Rajdhani-Regular";
+}
+
+footer {
+	margin: 0;
+	width: 100.0vw;
+	height: 40.0vw;
+	float: left;
+	background-color: #292929;
+}
+
+.foot-top {
+	margin: 0;
+	width: 100%;
+	height: 12.0vw;
+}
+
+.topLink {
+	margin: 0vw;
+	width: 30.0vw;
+	margin-left: 2.0vw;
+	padding-top: 2.0vw;
+	font-size: 3.5vw;
+	color: #788188;
+	text-decoration: none;
+	display: block;
+	font-family: "Rajdhani-Bold";
+}
+
+.topLink:hover {
+	color: #D3D3D3;
+}
+
+.footNav {
+	margin: 0;
+	width: 100%;
+	height: 20.0vw;
+}
+
+.footColumn {
+	margin: 0;
+	width: 25.0vw;
+	height: 18.0vw;
+	float: left;
+}
+
+.footRow {
+	margin: 0;
+	margin-left: 5.0vw;
+	width: 20.0vw;
+	height: 6.0vw;
+	color: #788188;
+	font-size: 2.5vw;
+	font-family: "Rajdhani-Regular";
+	text-decoration: none;
+	display: block;
+}
+
+.footRow:hover {
+	color: #D3D3D3;
+}
+
+.foot-bottom {
+	margin: 0;
+	width: 100%;
+	height: 10.0vw;
+}
+
+.footInfo {
+	margin: 0;
+	padding-top: 2.0vw;
+	font-size: 2.4vw;
+	font-family: "Rajdhani-Regular";
+	text-align: center;
+	color: #fff;
+}
