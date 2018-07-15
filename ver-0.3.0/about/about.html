@@ -12,16 +12,25 @@
     	<link href="../css/mdb.min.css" rel="stylesheet">
 		<!-- My Files -->
 		<link rel="stylesheet" type="text/css" href="../css/myStyles.css">
+		<script type="text/javascript" src="../js/other.js"></script>
 		<link rel="icon" href="../images/gyLogo.png">
-		<title>About</title>
+		<title>GY - About</title>
 	</head>
 	<body>
+		<!-- Background Image __ Background Image __ Background Image __ Background Image __ Background Image -->
+		<!-- Background Image -->
+		<div class="container-fluid fixed-top" style="position:fixed; z-index: -100;">
+			<div class="row">
+				<img src="../images/about02.jpg" class="img-fluid" align="top" style="width:100%; height:800px; object-fit:cover;">
+			</div>		
+		</div>
+
 		<!-- Navigation Bar __ Navigation Bar __ Navigation Bar __ Navigation Bar __ Navigation Bar __ Navigation Bar -->
 		<!-- Navigation Bar -->
 		<div class="container-fluid fixed-top " style="background-color: #212529;">
 			<div class="row">
 				<div class="d-block w-100">
-					<img src="../images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
+					<img id="storeHR" src="../images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
 				</div>
 				<div class="w-100" style="position:absolute; top:0;">
 					<img src="../images/menu-icon.png" role="button" class="d-inline d-lg-none m-2" data-toggle="modal" data-target="#menuModal" style="height:40px; width:40px; cursor: pointer;">
@@ -99,30 +108,105 @@
 			</div>
 		</div>
 
-		<!-- About Title Card MOBILE-->
+		<!-- Spacer		Spacer		Spacer		Spacer		Spacer		Spacer -->
 		<div class="container-fluid">
-			<div class="row">
-				<img src="../images/about1.jpg" class="d-block w-100 h-100">
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<h1 class="text-center display-4">About</h1>
+			<div class="row pt-5">
+				<div class="" style="height: 300px; width:100%;">
+					
 				</div>
 			</div>
 		</div>
 
-		<div class="container-fluid">
+		<!-- About Title -->
+		<div class="container-fluid bg-success">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="display-3 pt-3 text-dark">About <img src="../images/gyLogoDark.png" class="img-fluid" style="height:40px; width:40px;"></h1>
+						<h3 class="display-5 text-light">Our History</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 pb-4">
+						<article class="lead text-center">Established since 1880, Godet &amp; Young has provided helpful and friendly hardware services to the island community. Originally established in the city of Hamilton on front street, a branch was soon established in the town of St. George’s. After the closing of the Hamilton branch and its main competitor - St. George’s Hardware - Godet &amp; Young became the sole hardware provider in the east end.</article>
+						<article class="lead text-center pt-4 pb-2">Later purchased by Major Moore and Edwin Hayward in the 1970s Godet &amp; Young soon became a limited company with a number of shareholders. After becoming the majority shareholder, Robert Oatley became the current managing director and has continued the goal of providing useful hardware and friendly customer service to the east end community.</article>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+
+		<!-- About Mobile -->
+		<div class="container-fluid bg-light d-block d-sm-none">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 pt-5">
+						<h3 class="display-5 pb-2 text-dark">The Store</h3>
+					</div>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col-12">
-					<article class="lead text-center">Established since 1880, Godet &amp; Young has provided helpful and friendly hardware services to the island community. Originally established in the city of Hamilton on front street, a branch was soon established in the town of St. George’s. After the closing of the Hamilton branch and its main competitor St. George’s Hardware; Godet &amp; Young became the sole hardware provider in the east end.</article>
-					</br>
-					<article class="lead text-center">Later purchased by Major Moore and Edwin Hayward in the 1970s Godet &amp; Young soon became a limited company with a number of shareholders. After becoming the majority shareholder, Robert Oatley became the current managing director and has continued the goal of providing useful hardware and friendly customer service to the east end community.</article>
-					</br>
-					<article class="lead text-center">Often enough our store provides service to customers from all areas of the island thanks to the wide amount and diversity of products we carry. Our store provides a wide assortment of hardware, plumbing supplies, carpentry supplies, painting supplies, electrical supplies, and tools for any job. Godet &amp; Young is home to the most experienced hardware juggernauts on the island. Still on staff after working for the shop for at least 20 years each: Robert Oatley, Gerry Ryan, and Edwin Hayward continue to offer their timeless advice to the community.</article>
+				<img src="../images/about1.jpg" class="d-block w-100 h-100">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 pt-4">
+						<article class="lead text-center">Often enough our store provides service to customers from all areas of the island thanks to the wide amount and diversity of products we carry. Our store provides a wide assortment of hardware, plumbing supplies, carpentry supplies, painting supplies, electrical supplies, and tools for any job.</article>
+					</div>
+					<div class="col-12 pt-4">
+						<h3 class="display-5 pb-2 text-dark">Our Staff</h3>
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<img src="../images/staff2018.jpg" class="d-block w-100 h-100">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 pt-4">
+						<article class="lead text-center">Godet &amp; Young is home to the most experienced hardware juggernauts on the island. Still on staff after working for the shop for at least 20 years each: Robert Oatley, Gerry Ryan, and Edwin Hayward continue to offer their timeless advice to the community.</article>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- About Desktop -->
+		<div class="container-fluid bg-light d-none d-sm-block pb-4">
+			<div class="row">
+				<div class="col-6">
+					<h2 class="display-5 pt-5 pb-2 text-dark text-center">The Store</h2>
+					<article class="lead text-center">Often enough our store provides service to customers from all areas of the island thanks to the wide amount and diversity of products we carry. Our store provides a wide assortment of hardware, plumbing supplies, carpentry supplies, painting supplies, electrical supplies, and tools for any job.</article>
+					<img src="../images/about1.jpg" class="pt-4 img-fluid">
+				</div>
+				<div class="col-6">
+					<img src="../images/staff2018.jpg" class="pt-5 img-fluid">
+					<h2 class="display-5 pb-2 pt-4 text-dark text-center">Our Staff</h2>
+					<article class="lead text-center">Godet &amp; Young is home to the most experienced hardware juggernauts on the island. Still on staff after working for the shop for at least 20 years each: Robert Oatley, Gerry Ryan, and Edwin Hayward continue to offer their timeless advice to the community.</article>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+		<!-- About Website -->
+		<div class="container-fluid pt-4 pb-3 bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 pt-4">
+						<h2 class="display-5 text-dark">The Website</h2>
+						<article class="text-muted pb-4">Version 1.0.0</article>
+						<article class="lead text-center">Designed and created by <a href="http://mossbda.com/">Moss Bermuda</a>, godet-and-young.com is intended to help customers learn more about the store itself and get a better idea of the items it carries. The website will continue to be updated and improved with new features and functionality. Future updates may include:</article>
+						<ul class="pt-2 text-muted">
+							<li>Full access to all products</li>
+							<li>Search functionality</li>
+							<li>Online accounts and bill payments</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -151,7 +235,7 @@
 			</a>
 		</div>
 		<!-- Ad Slider Large -->
-		<div id="adSlider" class="carousel slide d-none d-md-block" data-ride="carousel">
+		<div id="adSlider2" class="carousel slide d-none d-md-block" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="../images/ad01a.png" alt="Deliveries">
@@ -165,11 +249,11 @@
 					</a>
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#adSlider" role="button" data-slide="prev">
+			<a class="carousel-control-prev" href="#adSlider2" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
-			<a class="carousel-control-next" href="#adSlider" role="button" data-slide="next">
+			<a class="carousel-control-next" href="#adSlider2" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>

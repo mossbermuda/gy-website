@@ -12,6 +12,7 @@
     	<link href="css/mdb.min.css" rel="stylesheet">
 		<!-- My Files -->
 		<link rel="stylesheet" type="text/css" href="css/myStyles.css">
+		<script type="text/javascript" src="js/home.js"></script>
 		<link rel="icon" href="images/gyLogo.png">
 		<title>Godet &amp; Young Ltd.</title>
 	</head>
@@ -29,7 +30,7 @@
 		<div class="container-fluid fixed-top " style="background-color: #212529;">
 			<div class="row">
 				<div class="d-block w-100">
-					<img src="images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
+					<img id="storeHRS" src="images/openNow.png" class="d-block m-2 float-right" style="height:40px; width:120px;">
 				</div>
 				<div class="w-100" style="position:absolute; top:0;">
 					<img src="images/menu-icon.png" role="button" class="d-inline d-lg-none m-2" data-toggle="modal" data-target="#menuModal" style="height:40px; width:40px; cursor: pointer;">
@@ -121,25 +122,60 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100" src="images/hmSlider1.jpg" alt="Masonary Supplies">
+					<a href="products/products-masonry.html">
+						<img class="d-block w-100" src="images/hmSlider1.jpg" alt="Masonary Supplies">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Masonry</h3>
+  					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/hmSlider2.jpg" alt="Tools">
+					<a href="products/products-tools.html">
+						<img class="d-block w-100" src="images/prdct19.jpg" alt="Tools">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Tools</h3>
+  					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/hmSlider3.jpg" alt="Electrical Supplies">
+					<a href="products/products-lighting.html">
+						<img class="d-block w-100" src="images/hmSlider3.jpg" alt="Electrical Supplies">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Electrical</h3>
+  					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/hmSlider4.jpg" alt="Fourth slide">
+					<a href="products/products-hardware.html">
+						<img class="d-block w-100" src="images/hmSlider4.jpg" alt="Hardware">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Hardware</h3>
+  					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/hmSlider5.jpg" alt="Fifth slide">
+					<a href="products/products-paint.html">
+						<img class="d-block w-100" src="images/hmSlider5.jpg" alt="Paint">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Paint</h3>
+  					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/hmSlider6.jpg" alt="Sixth slide">
+					<a href="products/products-lumber.html">
+						<img class="d-block w-100" src="images/hmSlider6.jpg" alt="Lumber">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3 class="text-dark">Lumber</h3>
+  					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/hmSlider7.jpg" alt="Seventh slide">
+					<a href="products/products-cleaning.html">
+						<img class="d-block w-100" src="images/hmSlider7.jpg" alt="Cleaning">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Cleaning</h3>
+  					</div>
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#homeSlider" role="button" data-slide="prev">
@@ -157,23 +193,23 @@
 				<div class="d-inline w-50 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider1.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-masonry.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Masonry</h1>
 						</a>
 					</div>
 				</div>
 				<div class="d-inline w-50 p-1">
 					<div class="view overlay zoom">
-						<img src="images/hmSlider2.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
-							<h1 class="white-text display-5 text-center">Carpentry</h1>
+						<img src="images/prdct19.jpg" class="d-inline w-100">
+						<a href="products/products-tools.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Tools</h1>
 						</a>
 					</div>
 				</div>
 				<div class="d-inline w-50 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider3.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-lighting.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Electrical</h1>
 						</a>
 					</div>
@@ -181,13 +217,13 @@
 				<div class="d-inline w-25 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider4.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-hardware.html" class="mask flex-center rgba-black-light">
 							<h3 class="white-text text-center">Hardware</h3>
 						</a>
 					</div>
 					<div class="view overlay zoom">
 						<img src="images/hmSlider5.jpg" class="d-inline w-100 pt-2">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-paint.html" class="mask flex-center rgba-black-light">
 							<h3 class="white-text text-center">Paint</h3>
 						</a>
 					</div>
@@ -195,13 +231,13 @@
 				<div class="d-inline w-25 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider6.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-lumber.html" class="mask flex-center rgba-black-light">
 							<h3 class="white-text text-center">Lumber</h3>
 						</a>
 					</div>
 					<div class="view overlay zoom">
 						<img src="images/hmSlider7.jpg" class="d-inline w-100 pt-2">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-cleaning.html" class="mask flex-center rgba-black-light">
 							<h3 class="white-text text-center">Cleaning</h3>
 						</a>
 					</div>
@@ -215,21 +251,21 @@
 				<div class="d-inline w-50 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider1.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-masonry.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Masonry</h1>
 						</a>
 					</div>
 				</div>
 				<div class="d-inline w-25 p-1">
 					<div class="view overlay zoom">
-						<img src="images/hmSlider2.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
-							<h1 class="white-text display-5 text-center">Carpentry</h1>
+						<img src="images/prdct19.jpg" class="d-inline w-100">
+						<a href="products/products-tools.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Tools</h1>
 						</a>
 					</div>
 					<div class="view overlay zoom">
 						<img src="images/hmSlider3.jpg" class="d-inline w-100 pt-2">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-lighting.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Electrical</h1>
 						</a>
 					</div>
@@ -237,13 +273,13 @@
 				<div class="d-inline w-25 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider4.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-hardware.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Hardware</h1>
 						</a>
 					</div>
 					<div class="view overlay zoom">
 						<img src="images/hmSlider5.jpg" class="d-inline w-100 pt-2">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-paint.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Paint</h1>
 						</a>
 					</div>
@@ -251,7 +287,7 @@
 				<div class="d-inline w-25 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider6.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-lumber.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Lumber</h1>
 						</a>
 					</div>
@@ -259,7 +295,7 @@
 				<div class="d-inline w-25 p-1">
 					<div class="view overlay zoom">
 						<img src="images/hmSlider7.jpg" class="d-inline w-100">
-						<a href="" class="mask flex-center rgba-black-light">
+						<a href="products/products-cleaning.html" class="mask flex-center rgba-black-light">
 							<h1 class="white-text display-5 text-center">Cleaning</h1>
 						</a>
 					</div>
@@ -287,13 +323,10 @@
 		<!-- Introduction __ Introduction __ Introduction __ Introduction __ Introduction __ Introduction __ Introduction -->
 		<!-- Mobile Intro -->
 		<div class="container-fluid bg-light d-block d-lg-none">
-			<div class="row d-block d-lg-none pt-3">
-				<img src="images/gyLogo.png" class="d-block img-fluid" style="height:80px; width:80px;">
-			</div>
 			<div class="row">
 				<div class="col-12 col-lg-10 pt-3">
-					<h1 class="display-3">Godet &amp; Young Ltd.</h1>
-					<h1 class="display-5">Hardware Store</h1>
+					<h1><img src="images/gyLogo.png" class="img-fluid" style="height:50px; width:50px;">Godet &amp; Young Ltd.</h1>
+					<h4 class="text-dark">Hardware Store</h4>
 					<article class="pb-2 text-muted">Open Mon-Sat 7:45am - 5:00pm</article>
 				</div>
 			</div>
@@ -308,12 +341,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-lg-10 pt-3">
-						<h1 class="display-3">Godet &amp; Young Ltd.</h1>
+						<h1 class="display-4"><img src="images/gyLogo.png" class="img-fluid" style="height:70px; width:70px;"> Godet &amp; Young Ltd.</h1>
 						<h1 class="display-5">Hardware Store</h1>
 						<article class="pb-2 text-muted">Open Mon-Sat 7:45am - 5:00pm</article>
-					</div>
-					<div class="d-none d-lg-block col-lg-2">
-						<img src="images/gyLogo.png" class="d-block img-fluid">
 					</div>
 				</div>
 				<div class="row">
@@ -330,14 +360,25 @@
 		<div class="container-fluid bg-info d-block d-lg-none">
 			<div class="row pt-3">
 				<div class="col-12">
-					<h1 class="display-3 text-dark">Location</h1>
-					<h1 class="display-5 text-light">27 Wellington Street.</h1>
+					<h1 class="display-4 text-dark">Location</h1>
+					<h2 class="text-light">27 Wellington Street.</h2>
 					<article class="pb-2">St. George's GE02, Bermuda</article>
 				</div>
 			</div>
 			<div class="row">
+				<div class="col-12">
+					<!-- Map Mobile -->
+					<iframe
+						width="100%"
+						height="400"
+						frameborder="0" style="border:0"
+						src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBY-kYiWwkR1NMu3VRAGGVVvNJ_zOxEhWA&q=place_id:ChIJJeM0vZpyLYoRGsY7F6w4gf4&zoom=14" allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-12 col-lg-9">
-					<article class="lead text-light pb-4">As you are driving into St. George's our store is a light blue building located on the left hand side of the road. Extra parking can be found across the road at Penno's Wharf. <a href="about/about.html">Learn more.</a></article>
+					<article class="lead text-light pb-4">As you are driving into St. George's our store is a light blue building located on the left hand side of the road. Extra parking can be found across the road at Penno's Wharf.</article>
 				</div>
 			</div>
 		</div>
@@ -346,14 +387,25 @@
 			<div class="container">
 				<div class="row pt-3">
 					<div class="col-12">
-						<h1 class="display-3 text-dark">Location</h1>
-						<h1 class="display-5 text-light">27 Wellington Street.</h1>
+						<h1 class="display-4 text-dark">Location</h1>
+						<h2 class="text-light">27 Wellington Street.</h2>
 						<article class="pb-2">St. George's GE02, Bermuda</article>
 					</div>
 				</div>
 				<div class="row">
+					<div class="col-12">
+						<!-- Map Mobile -->
+						<iframe
+							width="100%"
+							height="400"
+							frameborder="0" style="border:0"
+							src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBY-kYiWwkR1NMu3VRAGGVVvNJ_zOxEhWA&q=place_id:ChIJJeM0vZpyLYoRGsY7F6w4gf4&zoom=14" allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+				<div class="row">
 					<div class="col-12 col-lg-9">
-						<article class="lead text-light pb-4">As you are driving into St. George's our store is a light blue building located on the left hand side of the road. Extra parking can be found across the road at Penno's Wharf. <a href="about/about.html">Learn more.</a></article>
+						<article class="lead text-light pb-4">As you are driving into St. George's our store is a light blue building located on the left hand side of the road. Extra parking can be found across the road at Penno's Wharf.</article>
 					</div>
 				</div>
 			</div>
@@ -368,7 +420,7 @@
 		<div class="container-fluid bg-dark d-block d-lg-none">
 			<div class="row pt-3">
 				<div class="col-12">
-					<h1 class="display-3 text-light">Contact</h1>
+					<h1 class="display-4 text-light">Contact</h1>
 					<article class="pb-2 text-muted">Store: <a class="text-primary" href="tel:+1-441-297-1940">(441) 297-1940</a></article>
 					<article class="pb-2 text-muted">Manager: <a href="tel:+1-441-297-0343">(441) 297-0343</a></article>
 					<article class="pb-5 text-muted">Email: <a href="mailto:gy@northrock.bm">gy@northrock.bm</a></article>
@@ -376,7 +428,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12 col-lg-9">
-					<article class="lead text-light pb-4"><a href="about/about.html">More Info.</a></article>
+					<article class="lead text-light pb-4"><a href="contact/contact.html">More Info.</a></article>
 				</div>
 			</div>
 		</div>
@@ -385,7 +437,7 @@
 			<div class="container">
 				<div class="row pt-3">
 					<div class="col-12">
-						<h1 class="display-3 text-light">Contact</h1>
+						<h1 class="display-4 text-light">Contact</h1>
 						<article class="pb-2 text-muted">Store: <a class="text-primary" href="tel:+1-441-297-1940">(441) 297-1940</a></article>
 						<article class="pb-2 text-muted">Manager: <a href="tel:+1-441-297-0343">(441) 297-0343</a></article>
 						<article class="pb-5 text-muted">Email: <a href="mailto:gy@northrock.bm">gy@northrock.bm</a></article>
@@ -393,16 +445,11 @@
 				</div>
 				<div class="row">
 					<div class="col-12 col-lg-9">
-						<article class="lead text-light pb-4"><a href="about/about.html">More Info.</a></article>
+						<article class="lead text-light pb-4"><a href="contact/contact.html">More Info.</a></article>
 					</div>
 				</div>
 			</div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 		<br>
 		<br>
 		<br>
@@ -444,6 +491,10 @@
 						<p class="lead text-center">Cleaning</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-lighting.html"><img src="images/electrical.png" class="img-fluid"></a>
+						<p class="lead text-center">Electrical</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
 						<a href="products/products-fishing.html"><img src="images/fishing.png" class="img-fluid"></a>
 						<p class="lead text-center">Fishing</p>
 					</div>
@@ -458,10 +509,6 @@
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
 						<a href="products/products-home.html"><img src="images/home.png" class="img-fluid"></a>
 						<p class="lead text-center">Home</p>
-					</div>
-					<div class="col-4 col-sm-3 col-lg-2 view zoom">
-						<a href="products/products-lighting.html"><img src="images/lighting.png" class="img-fluid"></a>
-						<p class="lead text-center">Lighting</p>
 					</div>
 					<div class="col-4 col-sm-3 col-lg-2 view zoom">
 						<a href="products/products-locks.html"><img src="images/locks.png" class="img-fluid"></a>
@@ -524,59 +571,88 @@
 			</div>
 		</div>
 		<!-- Service Slider Mobile -->
-		<div id="carouselExampleSlidesOnly" class="carousel slide d-block d-sm-none" data-ride="carousel">
+		<div id="servicesSlider" class="carousel slide d-block d-sm-none" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#servicesSlider" data-slide-to="0" class="active"></li>
+				<li data-target="#servicesSlider" data-slide-to="1"></li>
+				<li data-target="#servicesSlider" data-slide-to="2"></li>
+				<li data-target="#servicesSlider" data-slide-to="3"></li>
+			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100" src="images/service-keys.jpg" alt="First slide">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-keys.jpg" alt="Key Cutting">	
+					</a>
 					<div class="carousel-caption d-none d-block">
-					    <h2 class="text-light">Key Cutting</h2>
+					    <h3>Key Cutting</h3>
   					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/service-glass.jpg" alt="Second slide">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-glass.jpg" alt="Glass Cutting">	
+					</a>
 					<div class="carousel-caption d-none d-block">
-					    <h2 class="text-light">Glass Cutting</h2>
+					    <h3>Glass Cutting</h3>
   					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/service-carpet.png" alt="Third slide">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-carpet.png" alt="Carpet Cleaner">
+					</a>
 					<div class="carousel-caption d-none d-block">
-					    <h2 class="text-light">Carpet Cleaner Rentals</h2>
+					    <h3>Carpet Cleaner Rentals</h3>
   					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/service-help.jpg" alt="Third slide">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-help.jpg" alt="Hardware Advice">
+					</a>
 					<div class="carousel-caption d-none d-block">
-					    <h2 class="text-light">Hardware/Project Assistence</h2>
+					    <h3>Hardware/Project Assistence</h3>
   					</div>
-
 				</div>
 			</div>
+			<a class="carousel-control-prev" href="#servicesSlider" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#servicesSlider" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
 		<!-- Services Tablet-->
 		<div class="container-fluid bg-light d-none d-sm-block d-lg-none">
 			<div class="row">
 				<div class="col-6">
 					<div class="view zoom text-center text-muted">
-						<img class="img-fluid" src="images/service-keys.jpg" alt="First slide">
+						<a href="services/services.html">
+							<img class="img-fluid" src="images/service-keys.jpg" alt="Key Cutting">
+						</a>
 						Key Cutting
 					</div>
 				</div>
 				<div class="col-6">
 					<div class="view zoom text-center text-muted">
-						<img class="d-block w-100" src="images/service-glass.jpg" alt="Second slide">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-glass.jpg" alt="Glass Cutting">
+						</a>
 						Glass Cutting
 					</div>
 				</div>
 				<div class="col-6">
 					<div class="view zoom text-center text-muted">
-						<img class="d-block w-100" src="images/service-carpet.png" alt="Third slide">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-carpet.png" alt="Carpet Cleaner">
+						</a>
 						Carpet Cleaner
 					</div>
 				</div>
 				<div class="col-6">
 					<div class="view zoom text-center text-muted">
-						<img class="d-block w-100" src="images/service-help.jpg" alt="Third slide">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-help.jpg" alt="Hardware Advice">
+						</a>
 						Hardware Advice
 					</div>
 				</div>
@@ -594,19 +670,27 @@
 				</div>
 				<div class="row pb-5">
 					<div class="col-3 view zoom text-center text-muted">
-						<img class="img-fluid" src="images/service-keys.jpg" alt="First slide">
+						<a href="services/services.html">
+							<img class="img-fluid" src="images/service-keys.jpg" alt="Key Cutting">
+						</a>
 						Key Cutting
 					</div>
 					<div class="col-3 view zoom text-center text-muted">
-						<img class="d-block w-100" src="images/service-glass.jpg" alt="Second slide">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-glass.jpg" alt="Glass Cutting">
+						</a>
 						Glass Cutting
 					</div>
 					<div class="col-3 view zoom text-center text-muted">
-						<img class="d-block w-100" src="images/service-carpet.png" alt="Third slide">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-carpet.png" alt="Carpet Cleaner">
+						</a>
 						Carpet Cleaner
 					</div>
 					<div class="col-3 view zoom text-center text-muted">
-						<img class="d-block w-100" src="images/service-help.jpg" alt="Third slide">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-help.jpg" alt="Hardware Advice">
+						</a>
 						Hardware Advice
 					</div>
 				</div>
@@ -673,7 +757,7 @@
 			</a>
 		</div>
 		<!-- Ad Slider Large -->
-		<div id="adSlider" class="carousel slide d-none d-md-block" data-ride="carousel">
+		<div id="adSlider2" class="carousel slide d-none d-md-block" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="images/ad01a.png" alt="Deliveries">
@@ -687,11 +771,11 @@
 					</a>
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#adSlider" role="button" data-slide="prev">
+			<a class="carousel-control-prev" href="#adSlider2" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
-			<a class="carousel-control-next" href="#adSlider" role="button" data-slide="next">
+			<a class="carousel-control-next" href="#adSlider2" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
@@ -714,6 +798,8 @@
  			</div>
 		</div>
 
+		<!-- My JS files -->
+		<script type="text/javascript" src="../js/my.js"></script>
 		<!-- Required Bootstrap JS files -->
 		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
