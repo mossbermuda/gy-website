@@ -1,0 +1,168 @@
+<!--HTML Document-->
+<!--Copyright @2016-->
+<!--Godet and Young Hardware Limited Website version: 1.1.0 -->
+<!--Designed and Built by Peter J. Sousa (Moss)-->
+<!--GY Home Page-->
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Godet &amp; Young Hardware : Marine</title>
+	<!--Mobile Layout Small-->
+	<link rel="stylesheet" media=" screen and (min-width: 320px)" href="css/mobileSMIndex.css">
+	<!--Mobile Layout Large/Landscape-->
+	<link rel="stylesheet" media=" screen and (min-width: 480px)" href="css/mobileLRGIndex.css">
+	<!--Tablet Layout Small-->
+	<link rel="stylesheet" media=" screen and (min-width: 600px)" href="css/tabletSMIndex.css">
+	<!--Tablet Layout Medium-->
+	<link rel="stylesheet" media=" screen and (min-width: 801px)" href="css/tabletMEDIndex.css">
+	<!--Tablet Layout Large-->
+	<link rel="stylesheet" media=" screen and (min-width: 1025px)" href="css/tabletLRGIndex.css">
+	<!--Desktop Layout-->
+	<link rel="stylesheet" media=" screen and (min-width: 1280px)" href="css/desktopIndex.css">
+	
+	<script src="javascript/controller.js" type="text/javascript"></script>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="titleBar">
+		<div href="#HOME" class="titleButton">
+			<img src="images/logo_PLACEHOLDER.png" class="logo" onclick="dropDown(1)">
+		</div>
+		<div class="categoryButton" onclick="dropDown(1)">
+			<div class="catStackTop" id="catSymbolTop"></div>
+			<div class="catStackBtm" id="catSymbolMid"></div>
+			<div class="catStackBtm" id="catSymbolBtm"></div>
+		</div>
+		<div class="open-Close">
+			<h2 id="open-close">Welcome</h2>
+		</div>
+		<div class="hours" id="storeHRS">
+			<h2 class="storeHours">MON-SAT | 7:45-5:00</h2>
+		</div>
+	</header>
+
+	<div class="categoryDropDown" id="catdropdown">
+		<div class="dropTopTab">
+			<a href="index.html" class="dropRow" onclick="dropDown(1)">Home</a>
+			<a href="marine.html" class="dropRow" onclick="dropDown(1)">Marine</a>
+			<a href="tools_hardware.html" class="dropRow" onclick="dropDown(1)">Tools &amp; Hardware</a>
+			<a href="electrical.html" class="dropRow" onclick="dropDown(1)">Electrical</a>
+			<a href="plumbing.html" class="dropRow" onclick="dropDown(1)">Plumbing</a>
+			<a href="home_garden.html" class="dropRow" onclick="dropDown(1)">Home &amp; Garden</a>
+			<a href="paint_supply.html" class="dropRow" onclick="dropDown(1)">Paint &amp; Supply</a>
+			<a href="lumber.html" class="dropRow" onclick="dropDown(1)">Lumber</a>
+			<a href="about.html" class="dropRow" onclick="dropDown(1)">About</a>
+			<a href="contact.html" class="dropRow" onclick="dropDown(1)">Contact</a>
+			<a href="index.html#SERVICES" class="dropRow" onclick="dropDown(1)">Services</a>
+			<div class="dropBtmTab" onclick="categoryReset()">
+				<h2 class="closeSymbol" onclick="dropDown(1)">X</h2>
+
+			</div>
+		</div>
+		
+		
+	</div>
+
+	<div class="navDiv">
+	</div>
+
+	<div class="subSection" id="TOP">
+		<h2 class="subTitle">Marine</h2>
+		<p class="subDescrpt">We stock a variety of marine goods, including <strong>marine hardware</strong>, <strong>marine paint</strong>, and <strong>fishing gear</strong>. Also carried is a variety of <strong>ropes</strong> and <strong>galvanized chain</strong>, as well as different kinds of <strong>buoys</strong> and <strong>fenders</strong>.</p>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/fishing.jpg">
+		<h1 class="serviceTitle">Fishing</h1>
+		<p class="serviceDesc">A variety of gear useful for deep sea fishing, bottom fishing, trolling, or fishing off the rocks or dock. <strong>Please Note</strong> we do not stock bait but we can direct you to where bait can be found.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>Filet Knives</li>
+				<li>Fishing Line, Hooks, &amp; Weights</li>
+				<li>Homemade Trolling Lures</li>
+				<li>Scales, Buckets, Boxes, Scalers, Pliers, & Gloves</li>
+				<li>Trolling Lead Litre Balls</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/marineHardware.jpg">
+		<h1 class="serviceTitle">Hardware</h1>
+		<p class="serviceDesc">Everything you need to make repairs to your boat and replace any missing equipment.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>Anchors, Fuel Line, Fuel Cans, &amp; Life Jackets</li>
+				<li>Bilge Pumps, Boat Cleaner &amp; Wax</li>
+				<li>Fiberglass cloth/resin, Bondo Filler, 5200 sealant, &amp; putty</li>
+				<li>Marine Hose, Fuses, Hull Fittings, Zincs, and more</li>
+				<li>Rope, Chain, Hardware, Shackles, Buoys, &amp; Bumpers</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="service">
+		<img class="serviceIMG" src="images/marinePaint.jpg">
+		<h1 class="serviceTitle">Paint</h1>
+		<p class="serviceDesc">High quality marine paints and varnish.</p>
+		<div class="contentList">
+			<ul class="productList">
+				<li>EasyPoxy Marine Grade Paint - Qts [16 Colors!]</li>
+				<li>Paint Brushes, Rollers, and Trays</li>
+				<li>West System Resins, Fillers, &amp; Hardeners</li>
+				<li>We carry 3 [Ultima, Horizons, &amp; Trinidad] varieties of Pettit(tm) Bottom Paint in Qts. &amp; Gals. [4 Colors]</li>
+				<li>Z-Spar Paints &amp; Varnishes - Qts</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="subSection">
+		<h2 class="subTitle">Marine</h2>
+		<p class="subDescrpt">For any questions regarding our marine products please give us a call at <strong>(441) 297-1940</strong> .</p>
+	</div>
+
+	<a class="thumbnailHorz" href="about.html">
+		<h2 class="thumbTitle">About Us</h2>
+		<p class="thmbItem">Learn more about Godet &amp; Young and our history</p>
+	</a>
+	<a class="thumbnailHorz" href="contact.html">
+		<h2 class="thumbTitle">Contact Us</h2>
+		<p class="thmbItem">All our contact and address information</p>
+	</a>
+
+	<footer>
+		<div class="foot-top">
+			<a href="#TOP" class="topLink">&larr;Top of Page</a>
+		</div>
+		<div class="footNav">
+			<div class="footColumn">
+				<a href="index.html" class="footRow">Home</a>
+				<a href="marine.html" class="footRow">Marine</a>
+				<a href="tools_hardware.html" class="footRow">Tools &amp; Hardware</a>
+			</div>
+			<div class="footColumn">
+				<a href="electrical.html" class="footRow">Electrical</a>
+				<a href="plumbing.html" class="footRow">Plumbing</a>
+				<a href="home_garden.html" class="footRow">Home &amp; Garden</a>
+			</div>
+			<div class="footColumn">
+				<a href="paint_supply.html" class="footRow">Paint &amp; Supply</a>
+				<a href="lumber.html" class="footRow">Lumber</a>
+				<a href="#SERVICES" class="footRow">Services</a>
+			</div>
+			<div class="footColumn">
+				<a href="about.html" class="footRow">About</a>
+				<a href="contact.html" class="footRow">Contact</a>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<p class="footInfo">&copy; 2016. Godet &amp; Young Hardware Ltd. - Website Designed and Built by Peter Sousa : version 1.1.1</p>
+		</div>
+
+	</footer>
+
+	
+</body>
+</html>
