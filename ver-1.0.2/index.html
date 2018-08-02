@@ -1,0 +1,813 @@
+<!doctype html>
+<!-- Homepage -->
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="Hardware Store, Godet &amp; Young Ltd., St. Georges Hardware, Bermuda Hardware, Tools, Adhesives, Paint, Lumber, Marine Hardware, Electrical, Masonry, Garden, Home, Lubricants, Plumbing, Key Cutting, Carpet Cleaner, Glass Cutting">
+		<meta name="description" content="Godet &amp; Young Ltd. is one of the oldest hardware stores in Bermuda. Located in St. George's, our store provides numerous services and stock a plethora of products; ranging from screws and bolts to lawn mowers, coolers, and paint.">
+		<!-- Bootstrap Files -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+		<!-- Material Design Bootstrap -->
+    	<link href="css/mdb.min.css" rel="stylesheet">
+		<!-- My Files -->
+		<link rel="stylesheet" type="text/css" href="css/myStyles.css">
+		<script src="js/home.js"></script>
+		<link rel="icon" href="images/logoSMD.png">
+		<title>Godet &amp; Young Ltd. - Home</title>
+	</head>
+	<body>
+		<!-- Background Image -->
+		<div class="container-fluid fixed-top" style="position:fixed; z-index: -100;">
+			<div class="row">
+				<img src="images/product-hardware.jpg" alt="Miscellaneous Hardware" class="img-fluid" style="width:100%; height:800px; object-fit:cover;">
+			</div>		
+		</div>
+
+		<!-- Navigation Bar -->
+		<div class="container-fluid fixed-top " style="background-color: #212529;">
+			<div class="row">
+				<div class="d-block w-100">
+					<img id="storeHRS" src="images/openNow.png" alt="Store Hours" class="d-block m-2 float-right" style="height:40px; width:120px;">
+				</div>
+				<div class="w-100" style="position:absolute; top:0;">
+					<img src="images/menu-icon.png" alt="Menu Icon" role="button" class="d-inline d-lg-none m-2" data-toggle="modal" data-target="#menuModal" style="height:40px; width:40px; cursor: pointer;">
+					<a href="index.html" class="ml-2">
+						<img src="images/logoSML.png" alt="Godet &amp; Young Logo" class="d-inline m-2" style="height:40px; width:40px;">
+					</a>
+					<a href="index.html" class="ml-5 d-none d-lg-inline lead text-light">Home</a>
+					<a href="products/products.html" class="ml-4 d-none d-lg-inline lead text-light">Products</a>
+					<a href="services/services.html" class="ml-4 d-none d-lg-inline lead text-light">Services</a>
+					<a href="http://www.csmokesmarina.com/" class="ml-4 d-none d-lg-inline lead text-light">Smokes' Marina</a>
+					<a href="contact/contact.html" class="ml-4 d-none d-lg-inline lead text-light">Contact</a>
+					<a href="about/about.html" class="ml-4 d-none d-lg-inline lead text-light">About</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu Modal -->
+		<div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="menuTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header bg-light">
+						<img src="images/logoSMD.png" alt="Godet &amp; Young Logo" class="img-fluid" style="height:30px; width:30px;">
+						<h5 class="lead modal-title text-center" id="menuTitle"><strong>Menu</strong> - Homepage</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+						<table class="table table-lg table-hover">
+							<tbody>
+								<tr>
+									<th scope="row" class="text-center">
+										<a class="d-block text-dark" href="index.html">Home</a>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" class="text-center">
+										<a class="d-block text-dark" href="products/products.html">Products</a>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" class="text-center">
+										<a class="d-block text-dark" href="services/services.html">Services</a>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" class="text-center">
+										<a class="d-block text-dark" href="http://www.csmokesmarina.com/">Smokes' Marina</a>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" class="text-center">
+										<a class="d-block text-dark" href="contact/contact.html">Contact</a>
+									</th>
+								</tr>
+								<tr>
+									<th scope="row" class="text-center">
+										<a class="d-block text-dark" href="about/about.html">About</a>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+					<div class="modal-footer bg-light">
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<p class="text-muted text-center">Monday - Saturday</p>
+									<p class="text-muted text-center">7:45am - 5:00pm</p>
+									<p class="text-center text-dark">Store: <a href="tel:+1-441-297-1940">(441) 297-1940</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Mobile Carousel Display -->
+		<div id="homeSlider" class="carousel slide d-block d-sm-none pt-5" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#homeSlider" data-slide-to="0" class="active"></li>
+				<li data-target="#homeSlider" data-slide-to="1"></li>
+				<li data-target="#homeSlider" data-slide-to="2"></li>
+				<li data-target="#homeSlider" data-slide-to="3"></li>
+				<li data-target="#homeSlider" data-slide-to="4"></li>
+				<li data-target="#homeSlider" data-slide-to="5"></li>
+				<li data-target="#homeSlider" data-slide-to="6"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a href="products/products-masonry.html">
+						<img class="d-block w-100" src="images/hmSlider1.jpg" alt="Masonary Supplies">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Masonry</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="products/products-tools.html">
+						<img class="d-block w-100" src="images/prdct19.jpg" alt="Tools">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Tools</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="products/products-lighting.html">
+						<img class="d-block w-100" src="images/hmSlider3.jpg" alt="Electrical Supplies">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Electrical</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="products/products-hardware.html">
+						<img class="d-block w-100" src="images/hmSlider4.jpg" alt="Hardware">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Hardware</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="products/products-paint.html">
+						<img class="d-block w-100" src="images/hmSlider5.jpg" alt="Paint">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Paint</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="products/products-lumber.html">
+						<img class="d-block w-100" src="images/hmSlider6.jpg" alt="Lumber">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3 class="text-dark">Lumber</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="products/products-cleaning.html">
+						<img class="d-block w-100" src="images/hmSlider7.jpg" alt="Cleaning Supplies">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Cleaning</h3>
+  					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#homeSlider" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#homeSlider" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- Tablet Image Display -->
+		<div class="container-fluid d-none d-sm-block d-lg-none" style="background-color: #212529;">
+			<div class="row pt-5">
+				<div class="d-inline w-50 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider1.jpg" alt="Masonry" class="d-inline w-100">
+						<a href="products/products-masonry.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Masonry</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-50 p-1">
+					<div class="view overlay zoom">
+						<img src="images/prdct19.jpg" alt="Tools" class="d-inline w-100">
+						<a href="products/products-tools.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Tools</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-50 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider3.jpg" alt="Electrical Supplies" class="d-inline w-100">
+						<a href="products/products-lighting.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Electrical</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-25 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider4.jpg" alt="Hardware" class="d-inline w-100">
+						<a href="products/products-hardware.html" class="mask flex-center rgba-black-light">
+							<h3 class="white-text text-center">Hardware</h3>
+						</a>
+					</div>
+					<div class="view overlay zoom">
+						<img src="images/hmSlider5.jpg" alt="Paint" class="d-inline w-100 pt-2">
+						<a href="products/products-paint.html" class="mask flex-center rgba-black-light">
+							<h3 class="white-text text-center">Paint</h3>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-25 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider6.jpg" alt="Lumber" class="d-inline w-100">
+						<a href="products/products-lumber.html" class="mask flex-center rgba-black-light">
+							<h3 class="white-text text-center">Lumber</h3>
+						</a>
+					</div>
+					<div class="view overlay zoom">
+						<img src="images/hmSlider7.jpg" alt="Cleaning Supplies" class="d-inline w-100 pt-2">
+						<a href="products/products-cleaning.html" class="mask flex-center rgba-black-light">
+							<h3 class="white-text text-center">Cleaning</h3>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Desktop Image Display -->
+		<div class="container-fluid d-none d-lg-block" style="background-color: #212529;">
+			<div class="row p-1 pt-5">
+				<div class="d-inline w-50 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider1.jpg" alt="Masonry" class="d-inline w-100">
+						<a href="products/products-masonry.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Masonry</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-25 p-1">
+					<div class="view overlay zoom">
+						<img src="images/prdct19.jpg" alt="Tools" class="d-inline w-100">
+						<a href="products/products-tools.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Tools</h1>
+						</a>
+					</div>
+					<div class="view overlay zoom">
+						<img src="images/hmSlider3.jpg" alt="Electrical Supplies" class="d-inline w-100 pt-2">
+						<a href="products/products-lighting.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Electrical</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-25 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider4.jpg" alt="Hardware" class="d-inline w-100">
+						<a href="products/products-hardware.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Hardware</h1>
+						</a>
+					</div>
+					<div class="view overlay zoom">
+						<img src="images/hmSlider5.jpg" alt="Paint" class="d-inline w-100 pt-2">
+						<a href="products/products-paint.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Paint</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-25 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider6.jpg" alt="Lumber" class="d-inline w-100">
+						<a href="products/products-lumber.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Lumber</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-25 p-1">
+					<div class="view overlay zoom">
+						<img src="images/hmSlider7.jpg" alt="Cleaning Supplies" class="d-inline w-100">
+						<a href="products/products-cleaning.html" class="mask flex-center rgba-black-light">
+							<h1 class="white-text display-5 text-center">Cleaning</h1>
+						</a>
+					</div>
+				</div>
+				<div class="d-inline w-50 p-1">
+					<div id="adSlides" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="images/ad01.png" alt="Ad - We Offer Deliveries">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="images/ad02.png" alt="Ad - Save 10%">
+							</div>
+							<div class="carousel-item">
+								<a href="tel:+1-441-297-1940">
+									<img class="d-block w-100" src="images/ad03.png" alt="Ad - Have Questions? Call Us.">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<!-- Small to Medium Screen Intro -->
+		<div class="container-fluid bg-light d-block d-lg-none">
+			<div class="row">
+				<div class="col-12 col-lg-10 pt-3">
+					<h2><img src="images/logoSML.png" alt="Godet &amp; Young Ltd. Logo" class="img-fluid" style="height:50px; width:50px;">Godet &amp; Young Ltd.</h2>
+					<h4 class="text-dark">Hardware Store</h4>
+					<p class="pb-2 text-muted">Open Mon-Sat 7:45am - 5:00pm</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<p class="lead pb-4">Godet &amp; Young has a long history and deep roots within the Bermudian community. Originally located on Front Street in Hamilton it then moved to service the east end of the island in the town of St. George's. <a href="about/about.html">Learn more.</a></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Large Screen Intro -->
+		<div class="container-fluid bg-light d-none d-lg-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-10 pt-3">
+						<h1 class="display-4"><img src="images/logoSML.png" alt="Godet &amp; Young Ltd. Logo" class="img-fluid" style="height:70px; width:70px;"> Godet &amp; Young Ltd.</h1>
+						<h1 class="display-5">Hardware Store</h1>
+						<p class="pb-2 text-muted">Open Mon-Sat 7:45am - 5:00pm</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-9">
+						<p class="lead pb-4">Godet &amp; Young has a long history and deep roots within the Bermudian community. Originally located on Front Street in Hamilton it then moved to service the east end of the island in the town of St. George's. <a href="about/about.html">Learn more.</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+
+		<!-- Small to Medium Screen Location --> 
+		<div class="container-fluid bg-info d-block d-lg-none">
+			<div class="row pt-3">
+				<div class="col-12">
+					<h1 class="display-4 text-dark">Location</h1>
+					<h2 class="text-light">27 Wellington Street.</h2>
+					<p class="pb-2">St. George's GE02, Bermuda</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<!-- Map Mobile -->
+					<iframe
+						height="400"
+						style="border:0; width:100%; border: 0px;"
+						src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBY-kYiWwkR1NMu3VRAGGVVvNJ_zOxEhWA&q=place_id:ChIJJeM0vZpyLYoRGsY7F6w4gf4&zoom=14" allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-9">
+					<p class="lead text-light pb-4">As you are driving into St. George's our store is a light blue building located on the left hand side of the road. Extra parking can be found across the road at Penno's Wharf.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Large Screen Location --> 
+		<div class="container-fluid bg-info d-none d-lg-block">
+			<div class="container">
+				<div class="row pt-3">
+					<div class="col-12">
+						<h1 class="display-4 text-dark">Location</h1>
+						<h2 class="text-light">27 Wellington Street.</h2>
+						<p class="pb-2">St. George's GE02, Bermuda</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<!-- Map Mobile -->
+						<iframe
+							height="400"
+							style="border:0; width:100%; border: 0px;"
+							src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBY-kYiWwkR1NMu3VRAGGVVvNJ_zOxEhWA&q=place_id:ChIJJeM0vZpyLYoRGsY7F6w4gf4&zoom=14" allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-9">
+						<p class="lead text-light pb-4">As you are driving into St. George's our store is a light blue building located on the left hand side of the road. Extra parking can be found across the road at Penno's Wharf.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<!-- Small to Medium Screen Contact -->
+		<div class="container-fluid bg-dark d-block d-lg-none">
+			<div class="row pt-3">
+				<div class="col-12">
+					<h1 class="display-4 text-light">Contact</h1>
+					<p class="pb-2 text-muted">Store: <a class="text-primary" href="tel:+1-441-297-1940">(441) 297-1940</a></p>
+					<p class="pb-2 text-muted">Manager: <a href="tel:+1-441-297-0343">(441) 297-0343</a></p>
+					<p class="pb-5 text-muted">Email: <a href="mailto:gy@northrock.bm">gy@northrock.bm</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-9">
+					<p class="lead text-light pb-4"><a href="contact/contact.html">More Info.</a></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Large Screen Contact -->
+		<div class="container-fluid bg-dark d-none d-lg-block">
+			<div class="container">
+				<div class="row pt-3">
+					<div class="col-12">
+						<h1 class="display-4 text-light">Contact</h1>
+						<p class="pb-2 text-muted">Store: <a class="text-primary" href="tel:+1-441-297-1940">(441) 297-1940</a></p>
+						<p class="pb-2 text-muted">Manager: <a href="tel:+1-441-297-0343">(441) 297-0343</a></p>
+						<p class="pb-5 text-muted">Email: <a href="mailto:gy@northrock.bm">gy@northrock.bm</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-9">
+						<p class="lead text-light pb-4"><a href="contact/contact.html">More Info.</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+
+		<!-- Storefront -->
+		<!-- Products -->
+		<div class="container-fluid bg-light">
+			<div class="container">
+				<div class="row d-block d-lg-none">
+					<div class="col-12">
+						<h1 class="display-3 pt-5 text-center">Storefront</h1>
+						<h1 class="text-center text-dark">Products</h1>
+						<p class="pb-2 text-muted text-center">Categories</p>
+						<p class="lead text-center">Our store stocks a wide variety of hardware and tools for many different applications.</p>
+						<p class="lead text-center pb-3"><a href="products/products.html">View Products</a></p>
+					</div>
+				</div>	
+				<div class="row d-none d-lg-block pt-5">
+					<div class="col-6">
+						<h1 class="display-3">Storefront</h1>
+						<h1 class="display-5 text-dark">Products</h1>
+						<p class="pb-2 text-muted">Categories</p>
+						<p class="lead">Our store stocks a wide variety of hardware and tools for many different applications.</p>
+						<p class="lead pb-3"><a href="products/products.html">View Products</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-adhesives.html"><img src="images/prdCat01-adhesive.png" alt="Adhesives" class="img-fluid"></a>
+						<p class="lead text-center">Adhesive</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-automotive.html"><img src="images/prdCat02-automotive.png" alt="Automotive" class="img-fluid"></a>
+						<p class="lead text-center">Automotive</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-cleaning.html"><img src="images/prdCat03-cleaning.png" alt="Cleaning" class="img-fluid"></a>
+						<p class="lead text-center">Cleaning</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-lighting.html"><img src="images/prdCat04-electrical.png" alt="Electrical" class="img-fluid"></a>
+						<p class="lead text-center">Electrical</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-fishing.html"><img src="images/prdCat05-fishing.png" alt="Fishing" class="img-fluid"></a>
+						<p class="lead text-center">Fishing</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-garden.html"><img src="images/prdCat06-garden.png" alt="Garden" class="img-fluid"></a>
+						<p class="lead text-center">Garden</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-hardware.html"><img src="images/prdCat07-hardware.png" alt="Hardware" class="img-fluid"></a>
+						<p class="lead text-center">Hardware</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-home.html"><img src="images/prdCat08-home.png" alt="Home" class="img-fluid"></a>
+						<p class="lead text-center">Home</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-locks.html"><img src="images/prdCat09-locks.png" alt="Locks" class="img-fluid"></a>
+						<p class="lead text-center">Locks</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-lubricants.html"><img src="images/prdCat10-lubricants.png" alt="Lubricants" class="img-fluid"></a>
+						<p class="lead text-center">Lubricants</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-lumber.html"><img src="images/prdCat11-lumber.png" alt="Lumber" class="img-fluid"></a>
+						<p class="lead  text-center">Lumber</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-marine.html"><img src="images/prdCat12-marine.png" alt="Marine" class="img-fluid"></a>
+						<p class="lead text-center">Marine</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-masonry.html"><img src="images/prdCat13-masonry.png" alt="Masonry" class="img-fluid"></a>
+						<p class="lead text-center">Masonry</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-paint.html"><img src="images/prdCat14-paint.png" alt="Paint" class="img-fluid"></a>
+						<p class="lead text-center">Paint</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-plumbing.html"><img src="images/prdCat15-plumbing.png" alt="Plumbing" class="img-fluid"></a>
+						<p class="lead text-center">Plumbing</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-rope.html"><img src="images/prdCat16-rope.png" alt="Ropes and Chains" class="img-fluid"></a>
+						<p class="lead text-center">Rope/Chain</p>
+					</div>
+					<div class="col-sm-3 d-none d-sm-block d-lg-none">
+						
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2 view zoom">
+						<a href="products/products-solvent.html"><img src="images/prdCat17-solvent.png" alt="Solvent" class="img-fluid"></a>
+						<p class="lead text-center">Solvent</p>
+					</div>
+					<div class="col-4 col-sm-3 col-lg-2  view zoom">
+						<a href="products/products-tools.html"><img src="images/prdCat18-tools.png" alt="Tools" class="img-fluid"></a>
+						<p class="lead text-center">Tools</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services Small to Medium Screen Title -->
+		<div class="container-fluid bg-light d-block d-lg-none">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center text-dark pt-5">Services</h1>
+					<p class="text-center lead">We provide a range of different services including <i>Key Cutting</i>, <i>Glass Cutting</i>, <i>Carpet Cleaner Rentals</i>, and <i>Hardware/Project Assistence</i>.</p>
+					<p class="lead text-center pb-3"><a href="services/services.html">Our Services</a></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services Carousel Mobile -->
+		<div id="servicesSlider" class="carousel slide d-block d-sm-none" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#servicesSlider" data-slide-to="0" class="active"></li>
+				<li data-target="#servicesSlider" data-slide-to="1"></li>
+				<li data-target="#servicesSlider" data-slide-to="2"></li>
+				<li data-target="#servicesSlider" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-keys.jpg" alt="Key Cutting">	
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Key Cutting</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-glass.jpg" alt="Glass Cutting">	
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Glass Cutting</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-carpet.png" alt="Carpet Cleaner">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Carpet Cleaner Rentals</h3>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<a href="services/services.html">
+						<img class="d-block w-100" src="images/service-help.jpg" alt="Hardware Advice">
+					</a>
+					<div class="carousel-caption d-none d-block">
+					    <h3>Hardware/Project Assistence</h3>
+  					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#servicesSlider" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#servicesSlider" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- Services Tablet-->
+		<div class="container-fluid bg-light d-none d-sm-block d-lg-none">
+			<div class="row">
+				<div class="col-6">
+					<div class="view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="img-fluid" src="images/service-keys.jpg" alt="Key Cutting">
+						</a>
+						Key Cutting
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-glass.jpg" alt="Glass Cutting">
+						</a>
+						Glass Cutting
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-carpet.png" alt="Carpet Cleaner">
+						</a>
+						Carpet Cleaner
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-help.jpg" alt="Hardware Advice">
+						</a>
+						Hardware Advice
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services Desktop -->
+		<div class="container-fluid d-none d-lg-block bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<h1 class="text-dark pt-5">Services</h1>
+						<p class="lead">We provide a range of different services including <i>Key Cutting</i>, <i>Glass Cutting</i>, <i>Carpet Cleaner Rentals</i>, and <i>Hardware/Project Assistence</i>.</p>
+						<p class="lead pb-3"><a href="services/services.html">Our Services</a></p>
+					</div>
+				</div>
+				<div class="row pb-5">
+					<div class="col-3 view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="img-fluid" src="images/service-keys.jpg" alt="Key Cutting">
+						</a>
+						Key Cutting
+					</div>
+					<div class="col-3 view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-glass.jpg" alt="Glass Cutting">
+						</a>
+						Glass Cutting
+					</div>
+					<div class="col-3 view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-carpet.png" alt="Carpet Cleaner">
+						</a>
+						Carpet Cleaner
+					</div>
+					<div class="col-3 view zoom text-center text-muted">
+						<a href="services/services.html">
+							<img class="d-block w-100" src="images/service-help.jpg" alt="Hardware Advice">
+						</a>
+						Hardware Advice
+					</div>
+				</div>
+			</div>
+			<br>
+		</div>
+
+		<!-- Smokes' Marina Mobile -->
+		<div class="container-fluid bg-light d-block d-lg-none">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center text-dark pt-5">Captain Smokes' Marina</h1>
+					<p class="lead text-center pb-3">Connected with our hardware store; Captain Smokes' Marina provides competitively priced docking and mooring services located in St. George's.</p>
+					<p class="text-center lead"><a target="_blank" href="http://www.csmokesmarina.com">Smokes' Marina</a></p>
+				</div>
+			</div>
+			<div class="row d-block d-lg-none">
+				<a target="_blank" href="http://www.csmokesmarina.com">
+					<img src="images/marina.jpg" alt="Smokes' Marina Dock" class="d-block w-100 h-100">
+				</a>
+			</div>
+		</div>
+
+		<!-- Smokes' Marine Desktop -->
+		<div class="container-fluid bg-light d-none d-lg-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 pb-5">
+						<div class="view zoom text-center">
+							<a target="_blank" href="http://www.csmokesmarina.com">
+								<img src="images/marina.jpg" alt="Smokes' Marina Dock" class="d-inline w-100">
+							</a>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="">
+							<h1 class="text-dark">Captain Smokes' Marina</h1>
+							<p class="lead">Connected with our hardware store; Captain Smokes' Marina provides competitively priced docking and mooring services located in St. George's.</p>
+							<p class="lead"><a target="_blank" href="http://www.csmokesmarina.com">Smokes' Marina</a></p>
+						</div>
+					</div>	
+				</div>	
+			</div>
+		</div>
+
+		<!-- Ad Slider Small -->
+		<div id="adSlider" class="carousel slide d-block d-md-none" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="images/ad01.png" alt="Ad - Deliveries">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="images/ad02.png" alt="Ad - Save 50%">
+				</div>
+				<div class="carousel-item">
+					<a href="tel:+1-441-297-1940">
+						<img class="d-block w-100" src="images/ad03.png" alt="Ad - Have Questions? Call Us.">
+					</a>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#adSlider" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#adSlider" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- Ad Slider Large -->
+		<div id="adSlider2" class="carousel slide d-none d-md-block" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="images/ad01a.png" alt="Ad - Deliveries">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="images/ad02a.png" alt="Ad - Save 50%">
+				</div>
+				<div class="carousel-item">
+					<a href="tel:+1-441-297-1940">
+						<img class="d-block w-100" src="images/ad03a.png" alt="Ad - Have Questions? Call Us.">
+					</a>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#adSlider2" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#adSlider2" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- Footer Mobile-->
+		<div class="container-fluid" style="background-color: #212529;">
+ 			<div class="row pt-4">
+ 				<div class="col-12">
+ 					<img src="images/menu-icon.png" alt="Menu Icon" role="button" class="d-block mx-auto" data-toggle="modal" data-target="#menuModal" style="height:80px; width:80px; cursor: pointer;">
+ 					<p class="text-center text-muted lead">Menu</p>
+ 				</div>
+ 			</div>		
+ 			<div class="row pt-3">
+				<div class="col-12">
+					<p class="text-center text-muted">&copy; Godet &amp; Young Ltd. 2018</p>
+					<p class="text-center text-muted">Version 1.0.2</p>
+					<p class="text-center"><a class="text-light" href="http://mossbda.com/">Website by Moss Bermuda</a></p>
+				</div>
+ 			</div>
+		</div>
+
+		<!-- Required Bootstrap JS files -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- MDB core JavaScript -->
+    	<script src="js/mdb.min.js"></script>
+	</body>
+</html>
