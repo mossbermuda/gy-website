@@ -1,5 +1,5 @@
 # Godet & Young Ltd. Website
-*Version 1.0.1*\
+*Version 1.0.2*\
 [godet-and-young.com](www.godet-and-young.com)
 
 **Moss Bermuda**\
